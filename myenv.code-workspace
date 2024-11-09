@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Project"
+		},
+		{
+			"path": "../blog-env"
+		}
+	],
+	"settings": {}
+}
