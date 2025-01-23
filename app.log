@@ -1,0 +1,2383 @@
+2025-01-21 00:30:42,351 - INFO - Received request: {'responseId': '4fc8b95d-6ef3-4c33-8d32-845a6048da9a-acd8d9b5', 'queryResult': {'queryText': 'Hotel', 'parameters': {'lat': 18.5204, 'lon': 72.8567, 'place_type': 'hotel'}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 72.8567, 'lon.original': '72.8567', 'place_type': 'hotel', 'place_type.original': 'Hotel'}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'date': '1737399641', 'message_id': '1105', 'chat': {'type': 'private', 'id': '956521460'}, 'from': {'language_code': 'en', 'id': '956521460', 'last_name': 'Rajput', 'first_name': 'Abhishek'}, 'text': 'Hotel'}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 00:30:42,351 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 00:30:45,024 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 00:30:45,025 - INFO - API response received: 200
+2025-01-21 00:34:16,880 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8568&radius=1000&type=hotel&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 00:34:20,448 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8568&radius=1000&type=hotel&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 00:34:21,440 - INFO - API response received: 200
+2025-01-21 00:34:21,440 - INFO - No hotels found within 5 km.
+2025-01-21 00:35:18,114 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8567&radius=1000&type=restaurant&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 00:35:21,800 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8567&radius=1000&type=restaurant&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 00:35:21,802 - INFO - API response received: 200
+2025-01-21 00:35:21,802 - INFO - No restaurants found within 5 km.
+2025-01-21 00:38:58,755 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,72.8567&radius=1000&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 01:03:36,300 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=1000&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 01:04:38,865 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=1000&language=en&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 01:05:31,294 - INFO - Received request: {'responseId': '5e7383b6-2c6d-4a90-8210-0ce08dceb53a-acd8d9b5', 'queryResult': {'queryText': 'Hotel', 'parameters': {'lat': 18.5204, 'lon': 73.8567, 'place_type': 'hotel'}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 73.8567, 'lon.original': '73.8567', 'place_type': 'hotel', 'place_type.original': 'Hotel'}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'message_id': '1172', 'date': '1737401730', 'text': 'Hotel', 'from': {'first_name': 'Abhishek', 'language_code': 'en', 'id': '956521460', 'last_name': 'Rajput'}, 'chat': {'type': 'private', 'id': '956521460'}}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:05:31,294 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 01:05:36,414 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 01:05:36,416 - INFO - API response received: 200
+2025-01-21 01:08:50,617 - INFO - Received request: {'responseId': '9f0950ed-b812-442e-ba00-eda3270ed384-acd8d9b5', 'queryResult': {'queryText': 'Hotel', 'parameters': {'lat': 18.5204, 'lon': 73.8567, 'place_type': 'hotel'}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 73.8567, 'lon.original': '73.8567', 'place_type': 'hotel', 'place_type.original': 'Hotel'}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'from': {'language_code': 'en', 'last_name': 'Rajput', 'id': '956521460', 'first_name': 'Abhishek'}, 'chat': {'type': 'private', 'id': '956521460'}, 'date': '1737401929', 'text': 'Hotel', 'message_id': '1179'}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:08:50,619 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 01:08:52,734 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 01:08:52,735 - INFO - API response received: 200
+2025-01-21 01:08:52,735 - INFO - No places found.
+2025-01-21 01:12:53,627 - INFO - Received request: {'responseId': '0584837e-9993-4ddb-a613-6670a0383e36-acd8d9b5', 'queryResult': {'queryText': 'Hotel', 'parameters': {'lat': 18.5204, 'lon': 73.8567, 'place_type': 'hotel'}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 73.8567, 'lon.original': '73.8567', 'place_type': 'hotel', 'place_type.original': 'Hotel', 'number1': 73.8567, 'number1.original': '73.8567', 'location': '', 'location.original': '', 'number': '', 'number.original': ''}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'chat': {'id': '956521460', 'type': 'private'}, 'message_id': '1201', 'text': 'Hotel', 'date': '1737402119', 'from': {'language_code': 'en', 'last_name': 'Rajput', 'id': '956521460', 'first_name': 'Abhishek'}}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:12:53,627 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 01:12:59,383 - ERROR - Request error: 
+2025-01-21 01:13:09,329 - INFO - Received request: {'responseId': '649e8180-36c6-4137-87ae-43a055ddcf30-acd8d9b5', 'queryResult': {'queryText': 'Hotel', 'parameters': {'lat': 18.5204, 'lon': 73.8567, 'place_type': 'hotel'}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 73.8567, 'lon.original': '73.8567', 'place_type': 'hotel', 'place_type.original': 'Hotel'}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'text': 'Hotel', 'chat': {'id': '956521460', 'type': 'private'}, 'message_id': '1208', 'date': '1737402188', 'from': {'last_name': 'Rajput', 'language_code': 'en', 'first_name': 'Abhishek', 'id': '956521460'}}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:13:09,329 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW
+2025-01-21 01:13:13,321 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&name=hotel&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW "HTTP/1.1 200 OK"
+2025-01-21 01:13:13,322 - INFO - API response received: 200
+2025-01-21 01:13:13,322 - INFO - API response content: {"html_attributions":[],"results":[],"status":"INVALID_REQUEST"}
+2025-01-21 01:13:13,323 - INFO - No places found.
+2025-01-21 01:16:34,641 - INFO - Received request: {'responseId': '9a9f5169-8077-43b3-812c-64979d5c7970-acd8d9b5', 'queryResult': {'queryText': '73.8567', 'parameters': {'lat': 18.5204, 'lon': 73.8567, 'place_type': ''}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 73.8567, 'lon.original': '73.8567', 'place_type': '', 'place_type.original': ''}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'text': '73.8567', 'message_id': '1214', 'chat': {'id': '956521460', 'type': 'private'}, 'date': '1737402393', 'from': {'language_code': 'en', 'id': '956521460', 'last_name': 'Rajput', 'first_name': 'Abhishek'}}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:16:34,642 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10
+2025-01-21 01:16:39,349 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-21 01:16:39,353 - INFO - API response received: 200
+2025-01-21 01:16:39,353 - INFO - API response content: {
+   "html_attributions" : [],
+   "next_page_token" : "AWYs27xVKIMPkD0mgRqOrsnB9ND1aJZOO7mN9gtFcPfXY_wlPFJg0gtm8JnhFzv9USIn4ZngrFWgKj-DRcAyr9araQA8l2rW7c9YhUp392zUpHgM_XIbW7WoJQ1bKypCIOVVyvohIwyKwY7DOU4woRFFEA-oNePv4waeWyX6YibhfLAUtxH2jeX2M1vz8oFgmnPR_ewxOXGxX9JkZ7mrZTerk2jC60pRq0wFcyHUcCsD_bmSTxfovBEAYwPa2aq14-2-X-2cYAb2H2wzF_1nKnszoibQMh0sHHL7W46911lKMS8idhfo6KZSo0DM5wGynqO58zpMuIdXh2HF6NDGpfYjyW99ptftwZlTYF86is9pxhTS3PqwHOiZg3weQ-3ix90wLXAMloCWet1I3iQd478g8egtYdwKXtEVunArqW8nk51k",
+   "results" : 
+   [
+      {
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5204303,
+               "lng" : 73.8567437
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.63575454184845,
+                  "lng" : 73.98645688287952
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.41347844795833,
+                  "lng" : 73.73947793919952
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Pune",
+         "photos" : 
+         [
+            {
+               "height" : 619,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103680574894460786041\"\u003eSujit Ingle\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zIyVuDb6HV0-vnzmuz8-ULTzT3eftYCdNYxiEqVFwdZRfvz5RiHlTyzuK0l9pyfEqy3LCYiutM_cxgsDuTQCrsgAVBvqxJe_rSLryRGuH37jM68I_qtCGXaxzr6djGkLEcgJNgAG73OiwxTVKVmBWaoMHnLUqSMnUBxe9I0rFCCmHb",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJARFGZy6_wjsRQ-Oenb9DjYI",
+         "reference" : "ChIJARFGZy6_wjsRQ-Oenb9DjYI",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ],
+         "vicinity" : "Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5179847,
+               "lng" : 73.8541104
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5193409302915,
+                  "lng" : 73.8554047302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5166429697085,
+                  "lng" : 73.85270676970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Basera",
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116843480406816618061\"\u003eRupesh Paradhi\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27xpq9rc-O4DeLQU5HU_SqIxScO9w_akl9SwDnXF4thxgJOZSuqCYTxVPCMH8x9wpNXzd10QC5AoCksPGurdUSBVgXD8o_usaVUQQuSxs7ATYgR3FxDi-osfip3VBET9ovK1pEJNhCvf6_E3se8HOjQ-ALKynbVi6evr5Bf5dC2eXqQi",
+               "width" : 2268
+            }
+         ],
+         "place_id" : "ChIJsfBb5m_AwjsRYXbiQyRMqJM",
+         "plus_code" : 
+         {
+            "compound_code" : "GV93+5J Pune, Maharashtra, India",
+            "global_code" : "7JCMGV93+5J"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJsfBb5m_AwjsRYXbiQyRMqJM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 881,
+         "vicinity" : "689 Shreemant Thorle Bajirav, Milkha Singh Sports Complex Road, Narayan Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5196659,
+               "lng" : 73.8574263
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5210169802915,
+                  "lng" : 73.85876543029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5183190197085,
+                  "lng" : 73.85606746970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Manish Clinic",
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109415457743084227415\"\u003eManas Bothara\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27xrsq4C2Z7oun3WYGEwpzbMnAzUEladmdaJ5H7_l2t1cV1Pe73tJ9gU0fG_HYWi874Ybo7_WppAJn4YDAFdRz66fETbevfVVbVvuLDpr3-AZ5aW_mW62d8xcKQEdnXOA-ZPt1IKUQZFM7nCspRBVOxiXoj5tQUMCqS7D5IxASkpHBd7",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ5xd7l2XAwjsRH5NE2LVEd9g",
+         "rating" : 5,
+         "reference" : "ChIJ5xd7l2XAwjsRH5NE2LVEd9g",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "GV94+VX7, Ramganesh Gadkari Path, Yashodatta Housing Society, Kasba Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5198803,
+               "lng" : 73.85435579999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5212700802915,
+                  "lng" : 73.85574338029149
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5185721197085,
+                  "lng" : 73.85304541970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Mukundrao Lele Hospital",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4160,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106225774345298961754\"\u003eJaydeep Dindore\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27xqPNTWSQnCOCsSzIGzfd8lZg-Rf4SCw4PYAyGFT5Axq31eKzfIsG0sdm-xr-7Tl9Y_nlU6DfQgsT7i0js7jH4Hsig7xAYmLFxEbZ1QJmL7ACRh2Je6g_Ax7VVr3B_EqTC4rz9nrgdGZ5wGFHCF75-smdGaB9pfimgDNopcY7EPNQFn",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJX6TVOWXAwjsRV9hVtttnnYk",
+         "rating" : 3.6,
+         "reference" : "ChIJX6TVOWXAwjsRV9hVtttnnYk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 14,
+         "vicinity" : "GV93+XP5, Shaniwar Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5164297,
+               "lng" : 73.85613289999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5177851802915,
+                  "lng" : 73.85754053029149
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5150872197085,
+                  "lng" : 73.85484256970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_hindu-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/worship_hindu_pinlet",
+         "name" : "Shrimant Dagdusheth Halwai Ganpati Mandir",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3465,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116241813560247917925\"\u003eBhushan Mahangare\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27yDoybJUbyJEbprtNJaNdWWv_87dm_LnyW9r4HTvy5Fln6OaEGDiHz-AEmv6mGZEfZVu1woPommYuhxdEf4FIpbaWWtotbDUvxzX8BvWLpLFGqPBmmAYRKcKJ5geR36-y3TrQjQlnNKYwuhkJxBAMRhazkOuwrQ9hZHt5XPFSXYSpuy",
+               "width" : 4616
+            }
+         ],
+         "place_id" : "ChIJ_0K0pW_AwjsR4bxItvVl850",
+         "plus_code" : 
+         {
+            "compound_code" : "GV84+HF Pune, Maharashtra, India",
+            "global_code" : "7JCMGV84+HF"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJ_0K0pW_AwjsR4bxItvVl850",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hindu_temple",
+            "tourist_attraction",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 169065,
+         "vicinity" : "Ganpati Bhavan, 250, शिवाजी रस्ता, मेहुणपुरा, बुधवार पेठ, पुणे"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5167583,
+               "lng" : 73.855203
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5181365802915,
+                  "lng" : 73.8565457302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5154386197085,
+                  "lng" : 73.85384776970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Krishna Book Centre",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJFZZXlW_AwjsRbsF4VqvhRu8",
+         "plus_code" : 
+         {
+            "compound_code" : "GV84+P3 Pune, Maharashtra, India",
+            "global_code" : "7JCMGV84+P3"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJFZZXlW_AwjsRbsF4VqvhRu8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "book_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 34,
+         "vicinity" : "153, Budhwar peth, Near Balaji Temple, Appa Balwant Chowk, Narsinha Chintamani Kelkar Road, Narayan Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5209045,
+               "lng" : 73.85578819999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5221562802915,
+                  "lng" : 73.85713843029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5194583197085,
+                  "lng" : 73.85444046970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Pune City Services",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4560,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110551276979438261088\"\u003eAjeet Sharma\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27wFhQZR_1lDQgtwNpUp73Tj8CEDqT9rgfWE-ipuUIK0R8gb6jaV9t2JlAO3FElxCwUo-jn6wFkiJYLATlHdUm3fYjglhhyhujH32j8SF-O3sUwQqpKYYyRYth_SIu9Osq7065ttfcpsJSOSXQTl6j_rQIHgKNNCVGeyp6P-TSZJ10Lq",
+               "width" : 2160
+            }
+         ],
+         "place_id" : "ChIJvz84-mTAwjsRl9WEL5w_iho",
+         "plus_code" : 
+         {
+            "compound_code" : "GVC4+98 Pune, Maharashtra, India",
+            "global_code" : "7JCMGVC4+98"
+         },
+         "rating" : 4,
+         "reference" : "ChIJvz84-mTAwjsRl9WEL5w_iho",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 29,
+         "vicinity" : "Shop 1315, Agarwal Marg, Shobhapur, Shaniyar vada Dattwadi, Kasba Peth, Pune"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5190441,
+               "lng" : 73.8544632
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5203983302915,
+                  "lng" : 73.85586073029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5177003697085,
+                  "lng" : 73.8531627697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Sealex Enterprises",
+         "permanently_closed" : true,
+         "place_id" : "ChIJV5iMp46_wjsRZ64JVB4_Tu8",
+         "plus_code" : 
+         {
+            "compound_code" : "GV93+JQ Pune, Maharashtra, India",
+            "global_code" : "7JCMGV93+JQ"
+         },
+         "reference" : "ChIJV5iMp46_wjsRZ64JVB4_Tu8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Ajol Ghar' Ground Floor, 482/B, Shrimant Bajirao Peshwe Path, Near Shaniwarwada"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5205081,
+               "lng" : 73.8567695
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.52192333029151,
+                  "lng" : 73.85812303029149
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5192253697085,
+                  "lng" : 73.85542506970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Surya Roshni Limited",
+         "permanently_closed" : true,
+         "place_id" : "ChIJYWXFp2XAwjsRhJpbfbG642E",
+         "rating" : 2.3,
+         "reference" : "ChIJYWXFp2XAwjsRhJpbfbG642E",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hardware_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "Room No-425, 4th Floor, Sterling Centre, M G Road, M G Road, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5227888,
+               "lng" : 73.85300239999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5240973802915,
+                  "lng" : 73.85437128029149
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.52139941970849,
+                  "lng" : 73.85167331970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "PMC Post Office",
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101544838753723536125\"\u003eSumegh 619\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27yUMpH_DRtHIpFiAciHKn2suOuHN0ehfhxs3xLVa9T9lccB8ImAMGKoiw4nivkVO8g5vz8jYcgMT6GCZpr95QWlYH84NfOGnzDfDHFijHbY5KMREdvuNSn2_yo_eGjegNqK-MpterdXclzv57Ebb_uiO_FnoNjoNlyoFr0_iX071hhV",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ09ohU3vAwjsRJYEj5c-wEsY",
+         "rating" : 3.5,
+         "reference" : "ChIJ09ohU3vAwjsRJYEj5c-wEsY",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "post_office",
+            "point_of_interest",
+            "finance",
+            "establishment"
+         ],
+         "user_ratings_total" : 10,
+         "vicinity" : "GVF3+466, Shivajinagar, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5167611,
+               "lng" : 73.854275
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5180461802915,
+                  "lng" : 73.85563788029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5153482197085,
+                  "lng" : 73.85293991970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Rasik Sahitya",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112667711731027131963\"\u003eashok pakhare\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zN5MA_M5cCFggkED4vGo974FbBysrLpvmtztNlAczR8wmPNT_-JBpv2_12nqm5fMCMDYvnuSEtbHz5lS4FlH-u_r66jpjez5mZT0i03g70s1hWDfPeSfXrhVUYOmn5xQkP7naDhhwMtRKlb6sFBbSIFMJUIU7ry3guykaBHX0kTOAB",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ-ceQ2G_AwjsRObVXpXAkaEU",
+         "plus_code" : 
+         {
+            "compound_code" : "GV83+PP Pune, Maharashtra, India",
+            "global_code" : "7JCMGV83+PP"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ-ceQ2G_AwjsRObVXpXAkaEU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "book_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 316,
+         "vicinity" : "Appa Balwant Chowk, Tulshibaug, Budhwar Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5184952,
+               "lng" : 73.85183669999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5198334802915,
+                  "lng" : 73.85314468029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5171355197085,
+                  "lng" : 73.85044671970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Shubhavishva",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 864,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100396908139522758029\"\u003eShubhavishva\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27w0pZe4wabrcHUyF9jo5herd4GQKdIkLQl87Fogf2acSpP6by-lm3cAjEsXgERUx7WhBF5thzWGm8AEA6qlZMMJNrP6YURxg7ISV_OPJjct8mcpkZFKdCWTjyYt8P3JvbblBTc-h7K6cmatFUoacBQVWGfwk0Lh3Zp7BcTzHnOTxnkC",
+               "width" : 1296
+            }
+         ],
+         "place_id" : "ChIJVVVVFXDAwjsR7BF-yvzeG04",
+         "plus_code" : 
+         {
+            "compound_code" : "GV92+9P Pune, Maharashtra, India",
+            "global_code" : "7JCMGV92+9P"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJVVVVFXDAwjsR7BF-yvzeG04",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 12,
+         "vicinity" : "First Floor,Flat no.102, Deolankar Wada, near Ahilyadevi Highschool, 423 A, Shaniwar Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5171451,
+               "lng" : 73.85721649999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5183663802915,
+                  "lng" : 73.8585523302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5156684197085,
+                  "lng" : 73.8558543697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "THAKUR SHROFF & ELECTRIC COMPANY Authorized Distributors Polycab Wires)",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112386909716374621650\"\u003eLokesh Dhumal\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27z9QRs4Jhf6Xb1O_wHtbNBPx2hB3_YU64Rqe-vgypDDQ8dbvhwtIRdukpBdJWZYj92-ukSebRsrBu8PsPxgONQTVJ9yhP58aNtq0VBrUPrARe1mNUKjjxg6uavY0bYgg1oSdtTihcprPs_EqiS0cTWAQVcRBNw_i0jxwMFfRiQoGseM",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJVVVVJW_AwjsRQwESk_KiL4E",
+         "plus_code" : 
+         {
+            "compound_code" : "GV84+VV Pune, Maharashtra, India",
+            "global_code" : "7JCMGV84+VV"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJVVVVJW_AwjsRQwESk_KiL4E",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 118,
+         "vicinity" : "475, Narsinha Chintamani Kelkar Road, Budhwar Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5154276,
+               "lng" : 73.85812680000001
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5167758302915,
+                  "lng" : 73.85946868029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.51407786970849,
+                  "lng" : 73.85677071970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Jaytara Sanitary Wares",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 560,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112344133858147613325\"\u003eJaytara Sanitary Wares\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27wM8UdgVV3fhR62A7WF9D7EOOxt7HfaxZAKA1JAGyVgCSadF_4mKyuvZ8Juovfg0ARjrL6vSpqmUa8IJyzqJ0JPF0yPDDcdKCzyP_ad60rbdFbGcarS4gd9p4hbnc1hOQmcAumCo9NzhAofbXfw1SDc64rJJsjL3VN-NjHevDaeTq-_",
+               "width" : 310
+            }
+         ],
+         "place_id" : "ChIJBXhX3m7AwjsRkW4WeZbV0ZE",
+         "plus_code" : 
+         {
+            "compound_code" : "GV85+57 Pune, Maharashtra, India",
+            "global_code" : "7JCMGV85+57"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJBXhX3m7AwjsRkW4WeZbV0ZE",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hardware_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 35,
+         "vicinity" : "near Vijay Maruti Chowk, 998, Jaytara Complex, near Vijay Maruti Chowk, Bhutkar Haud Marg, Budhwar Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5173118,
+               "lng" : 73.8593343
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5186799302915,
+                  "lng" : 73.86068403029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5159819697085,
+                  "lng" : 73.8579860697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Eagle Services",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJVVVVJW_AwjsR8L9HleKUBBc",
+         "plus_code" : 
+         {
+            "compound_code" : "GV85+WP Pune, Maharashtra, India",
+            "global_code" : "7JCMGV85+WP"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJVVVVJW_AwjsR8L9HleKUBBc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hardware_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "782, Budhwar Peth, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5195203,
+               "lng" : 73.85209569999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5208714302915,
+                  "lng" : 73.8534786802915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5181734697085,
+                  "lng" : 73.85078071970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Aditi Enterprises",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 810,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108346369634222483924\"\u003eAditi Enterprises\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27x2pEmiXAkMM4gDzl6tURU4IMrauoFs9TrLEUCDrZr6elFSBgGZAJf_EkF5P_cpLmQN_W3yWMoPoRwva_qDKb_ktkpDGdNIASprBRHckBJ0h-UiMyczHFcEf8x9VWOVHA1l3csUx2HADFp4mdhjLCr4ARnQZvmZmHXOUMeFPG0NYqM-",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJy7cuKnTAwjsRrBX8GSfo4wk",
+         "plus_code" : 
+         {
+            "compound_code" : "GV92+RR Pune, Maharashtra, India",
+            "global_code" : "7JCMGV92+RR"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJy7cuKnTAwjsRrBX8GSfo4wk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "electronics_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 109,
+         "vicinity" : "near veer maruti mandir, 127/B, Shop No.2, Behind Behind Shaniwar Peth Police Chowky, near veer maruti mandir, Pune"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5173119,
+               "lng" : 73.85189969999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5186653302915,
+                  "lng" : 73.8532874302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5159673697085,
+                  "lng" : 73.85058946970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+         "name" : "MIT UTS",
+         "permanently_closed" : true,
+         "place_id" : "ChIJ8c5HcnDAwjsRGiQCshJZgNI",
+         "plus_code" : 
+         {
+            "compound_code" : "GV82+WQ Pune, Maharashtra, India",
+            "global_code" : "7JCMGV82+WQ"
+         },
+         "rating" : 3,
+         "reference" : "ChIJ8c5HcnDAwjsRGiQCshJZgNI",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "S.No.124, Ex-Servicemen Colony First Floor, Unit W 105, World Peace Centre, Paud Road, Kothrud, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5248852,
+               "lng" : 73.8551734
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5262321302915,
+                  "lng" : 73.8565840302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.52353416970849,
+                  "lng" : 73.85388606970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Kale & Shinde Associates",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104720277595374876518\"\u003eKale &amp; Shinde Associates\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27xlkdS17aYEZHNdQl6EF1me0m1ZNU1IgCfptOMNVuhpIiNtAdRpzNEwGAkIYBpVvjXBrgGAOADvfvCFBp-ZGGxo2g0kHFrXiODJp1b8KYGNESsD6jk0RXUr_N5yXrvSMkRycnlnODaT0dP4hEk_K1NeHzdgA2qOQlvEYerdbaMKIZ2w",
+               "width" : 768
+            }
+         ],
+         "place_id" : "ChIJh16BIPfBwjsRP6bsm6UoDJg",
+         "plus_code" : 
+         {
+            "compound_code" : "GVF4+X3 Pune, Maharashtra, India",
+            "global_code" : "7JCMGVF4+X3"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJh16BIPfBwjsRP6bsm6UoDJg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 80,
+         "vicinity" : "2nd floor, Chunawala Chambers, 103, Abdul Ajiz Memon Path, Tophakhana, Shivajinagar, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5181973,
+               "lng" : 73.85194539999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5195338302915,
+                  "lng" : 73.8532394302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5168358697085,
+                  "lng" : 73.85054146970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Hasabnis Residency, Hasabnis Bakhal",
+         "place_id" : "ChIJ43wkmXrAwjsRWysDZj7fUB4",
+         "plus_code" : 
+         {
+            "compound_code" : "GV92+7Q Pune, Maharashtra, India",
+            "global_code" : "7JCMGV92+7Q"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ43wkmXrAwjsRWysDZj7fUB4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "444 Shaniwar Peth, Pune, Maharashtra"
+      },
+      {
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5258965,
+               "lng" : 73.86101909999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.52871602877081,
+                  "lng" : 73.86745997555333
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.51850242762068,
+                  "lng" : 73.85462600889491
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Kasba Peth",
+         "photos" : 
+         [
+            {
+               "height" : 3464,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118352799596033677082\"\u003eSIDDHARTHA KADAM\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27yURSpzlgAIYt_aHQ_eUCOFROli5Ij5qDiVp2HG4Zi6ZVji8X8uh6dVHxuy7zr9WuC25CRDEMZLhLPKhSrtrYOHeT7Ae5eCmE35uEFnSgLHy3wCkaDjIqIjzz9MkIncD72bAZCOrwaWqyDybGlPsYS1rVVgyibH3esUioRsx0c8nSfs",
+               "width" : 4618
+            }
+         ],
+         "place_id" : "ChIJBXF-uGbAwjsRrtT9SMM76-g",
+         "reference" : "ChIJBXF-uGbAwjsRrtT9SMM76-g",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "sublocality_level_1",
+            "sublocality",
+            "political"
+         ],
+         "vicinity" : "Kasba Peth"
+      }
+   ],
+   "status" : "OK"
+}
+2025-01-21 01:16:39,355 - INFO - Nearby locations: ['Name: Pune\nAddress: Pune\nDistance: 0.01 km\nGoogle Maps: https://www.google.com/maps?q=18.5204303,73.8567437\n', 'Name: Hotel Basera\nAddress: 689 Shreemant Thorle Bajirav, Milkha Singh Sports Complex Road, Narayan Peth, Pune\nDistance: 0.38 km\nGoogle Maps: https://www.google.com/maps?q=18.5179847,73.8541104\n', 'Name: Manish Clinic\nAddress: GV94+VX7, Ramganesh Gadkari Path, Yashodatta Housing Society, Kasba Peth, Pune\nDistance: 0.11 km\nGoogle Maps: https://www.google.com/maps?q=18.5196659,73.8574263\n', 'Name: Mukundrao Lele Hospital\nAddress: GV93+XP5, Shaniwar Peth, Pune\nDistance: 0.25 km\nGoogle Maps: https://www.google.com/maps?q=18.5198803,73.8543558\n', 'Name: Shrimant Dagdusheth Halwai Ganpati Mandir\nAddress: Ganpati Bhavan, 250, शिवाजी रस्ता, मेहुणपुरा, बुधवार पेठ, पुणे\nDistance: 0.45 km\nGoogle Maps: https://www.google.com/maps?q=18.5164297,73.85613289999999\n', 'Name: Krishna Book Centre\nAddress: 153, Budhwar peth, Near Balaji Temple, Appa Balwant Chowk, Narsinha Chintamani Kelkar Road, Narayan Peth, Pune\nDistance: 0.43 km\nGoogle Maps: https://www.google.com/maps?q=18.5167583,73.855203\n', 'Name: Pune City Services\nAddress: Shop 1315, Agarwal Marg, Shobhapur, Shaniyar vada Dattwadi, Kasba Peth, Pune\nDistance: 0.11 km\nGoogle Maps: https://www.google.com/maps?q=18.5209045,73.85578819999999\n', "Name: Sealex Enterprises\nAddress: Ajol Ghar' Ground Floor, 482/B, Shrimant Bajirao Peshwe Path, Near Shaniwarwada\nDistance: 0.28 km\nGoogle Maps: https://www.google.com/maps?q=18.5190441,73.8544632\n", 'Name: Surya Roshni Limited\nAddress: Room No-425, 4th Floor, Sterling Centre, M G Road, M G Road, Pune\nDistance: 0.01 km\nGoogle Maps: https://www.google.com/maps?q=18.5205081,73.8567695\n', 'Name: PMC Post Office\nAddress: GVF3+466, Shivajinagar, Pune\nDistance: 0.47 km\nGoogle Maps: https://www.google.com/maps?q=18.5227888,73.8530024\n', 'Name: Rasik Sahitya\nAddress: Appa Balwant Chowk, Tulshibaug, Budhwar Peth, Pune\nDistance: 0.48 km\nGoogle Maps: https://www.google.com/maps?q=18.5167611,73.854275\n', 'Name: Shubhavishva\nAddress: First Floor,Flat no.102, Deolankar Wada, near Ahilyadevi Highschool, 423 A, Shaniwar Peth, Pune\nDistance: 0.55 km\nGoogle Maps: https://www.google.com/maps?q=18.5184952,73.85183669999999\n', 'Name: THAKUR SHROFF & ELECTRIC COMPANY Authorized Distributors Polycab Wires)\nAddress: 475, Narsinha Chintamani Kelkar Road, Budhwar Peth, Pune\nDistance: 0.37 km\nGoogle Maps: https://www.google.com/maps?q=18.5171451,73.85721649999999\n', 'Name: Jaytara Sanitary Wares\nAddress: near Vijay Maruti Chowk, 998, Jaytara Complex, near Vijay Maruti Chowk, Bhutkar Haud Marg, Budhwar Peth, Pune\nDistance: 0.57 km\nGoogle Maps: https://www.google.com/maps?q=18.5154276,73.85812680000001\n', 'Name: Eagle Services\nAddress: 782, Budhwar Peth, Pune\nDistance: 0.44 km\nGoogle Maps: https://www.google.com/maps?q=18.5173118,73.8593343\n', 'Name: Aditi Enterprises\nAddress: near veer maruti mandir, 127/B, Shop No.2, Behind Behind Shaniwar Peth Police Chowky, near veer maruti mandir, Pune\nDistance: 0.50 km\nGoogle Maps: https://www.google.com/maps?q=18.5195203,73.85209569999999\n', 'Name: MIT UTS\nAddress: S.No.124, Ex-Servicemen Colony First Floor, Unit W 105, World Peace Centre, Paud Road, Kothrud, Pune\nDistance: 0.61 km\nGoogle Maps: https://www.google.com/maps?q=18.5173119,73.85189969999999\n', 'Name: Kale & Shinde Associates\nAddress: 2nd floor, Chunawala Chambers, 103, Abdul Ajiz Memon Path, Tophakhana, Shivajinagar, Pune\nDistance: 0.52 km\nGoogle Maps: https://www.google.com/maps?q=18.5248852,73.8551734\n', 'Name: Hasabnis Residency, Hasabnis Bakhal\nAddress: 444 Shaniwar Peth, Pune, Maharashtra\nDistance: 0.56 km\nGoogle Maps: https://www.google.com/maps?q=18.5181973,73.85194539999999\n', 'Name: Kasba Peth\nAddress: Kasba Peth\nDistance: 0.76 km\nGoogle Maps: https://www.google.com/maps?q=18.5258965,73.8610191\n']
+2025-01-21 01:17:02,798 - INFO - Received request: {'responseId': '4c81f7a4-6181-4f12-8580-599003c2a532-acd8d9b5', 'queryResult': {'queryText': '73.8567', 'parameters': {'lat': 18.5204, 'lon': 73.8567, 'place_type': ''}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5204, 'lat.original': '18.5204', 'lon': 73.8567, 'lon.original': '73.8567', 'place_type': '', 'place_type.original': ''}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'chat': {'id': '956521460', 'type': 'private'}, 'message_id': '1219', 'text': '73.8567', 'date': '1737402421', 'from': {'last_name': 'Rajput', 'language_code': 'en', 'first_name': 'Abhishek', 'id': '956521460'}}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:17:02,799 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10
+2025-01-21 01:17:05,563 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-21 01:17:05,566 - INFO - API response received: 200
+2025-01-21 01:17:05,566 - INFO - API response content: {"html_attributions":[],"next_page_token":"AWYs27xVKIMPkD0mgRqOrsnB9ND1aJZOO7mN9gtFcPfXY_wlPFJg0gtm8JnhFzv9USIn4ZngrFWgKj-DRcAyr9araQA8l2rW7c9YhUp392zUpHgM_XIbW7WoJQ1bKypCIOVVyvohIwyKwY7DOU4woRFFEA-oNePv4waeWyX6YibhfLAUtxH2jeX2M1vz8oFgmnPR_ewxOXGxX9JkZ7mrZTerk2jC60pRq0wFcyHUcCsD_bmSTxfovBEAYwPa2aq14-2-X-2cYAb2H2wzF_1nKnszoibQMh0sHHL7W46911lKMS8idhfo6KZSo0DM5wGynqO58zpMuIdXh2HF6NDGpfYjyW99ptftwZlTYF86is9pxhTS3PqwHOiZg3weQ-3ix90wLXAMloCWet1I3iQd478g8egtYdwKXtEVunArqW8nk51k","results":[{"geometry":{"location":{"lat":18.5204303,"lng":73.8567437},"viewport":{"northeast":{"lat":18.63575454184845,"lng":73.98645688287952},"southwest":{"lat":18.41347844795833,"lng":73.73947793919952}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Pune","photos":[{"height":619,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/103680574894460786041\">Sujit Ingle</a>"],"photo_reference":"AWYs27zIyVuDb6HV0-vnzmuz8-ULTzT3eftYCdNYxiEqVFwdZRfvz5RiHlTyzuK0l9pyfEqy3LCYiutM_cxgsDuTQCrsgAVBvqxJe_rSLryRGuH37jM68I_qtCGXaxzr6djGkLEcgJNgAG73OiwxTVKVmBWaoMHnLUqSMnUBxe9I0rFCCmHb","width":1080}],"place_id":"ChIJARFGZy6_wjsRQ-Oenb9DjYI","reference":"ChIJARFGZy6_wjsRQ-Oenb9DjYI","scope":"GOOGLE","types":["locality","political"],"vicinity":"Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5179847,"lng":73.8541104},"viewport":{"northeast":{"lat":18.5193409302915,"lng":73.8554047302915},"southwest":{"lat":18.5166429697085,"lng":73.85270676970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"Hotel Basera","photos":[{"height":4032,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/116843480406816618061\">Rupesh Paradhi</a>"],"photo_reference":"AWYs27xpq9rc-O4DeLQU5HU_SqIxScO9w_akl9SwDnXF4thxgJOZSuqCYTxVPCMH8x9wpNXzd10QC5AoCksPGurdUSBVgXD8o_usaVUQQuSxs7ATYgR3FxDi-osfip3VBET9ovK1pEJNhCvf6_E3se8HOjQ-ALKynbVi6evr5Bf5dC2eXqQi","width":2268}],"place_id":"ChIJsfBb5m_AwjsRYXbiQyRMqJM","plus_code":{"compound_code":"GV93+5J Pune, Maharashtra, India","global_code":"7JCMGV93+5J"},"rating":3.9,"reference":"ChIJsfBb5m_AwjsRYXbiQyRMqJM","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":881,"vicinity":"689 Shreemant Thorle Bajirav, Milkha Singh Sports Complex Road, Narayan Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5196659,"lng":73.8574263},"viewport":{"northeast":{"lat":18.5210169802915,"lng":73.85876543029151},"southwest":{"lat":18.5183190197085,"lng":73.85606746970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Manish Clinic","photos":[{"height":1080,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/109415457743084227415\">Manas Bothara</a>"],"photo_reference":"AWYs27xrsq4C2Z7oun3WYGEwpzbMnAzUEladmdaJ5H7_l2t1cV1Pe73tJ9gU0fG_HYWi874Ybo7_WppAJn4YDAFdRz66fETbevfVVbVvuLDpr3-AZ5aW_mW62d8xcKQEdnXOA-ZPt1IKUQZFM7nCspRBVOxiXoj5tQUMCqS7D5IxASkpHBd7","width":1920}],"place_id":"ChIJ5xd7l2XAwjsRH5NE2LVEd9g","rating":5,"reference":"ChIJ5xd7l2XAwjsRH5NE2LVEd9g","scope":"GOOGLE","types":["health","point_of_interest","establishment"],"user_ratings_total":1,"vicinity":"GV94+VX7, Ramganesh Gadkari Path, Yashodatta Housing Society, Kasba Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5198803,"lng":73.8543558},"viewport":{"northeast":{"lat":18.5212700802915,"lng":73.85574338029149},"southwest":{"lat":18.5185721197085,"lng":73.85304541970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png","icon_background_color":"#F88181","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet","name":"Mukundrao Lele Hospital","opening_hours":{"open_now":false},"photos":[{"height":4160,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/106225774345298961754\">Jaydeep Dindore</a>"],"photo_reference":"AWYs27xqPNTWSQnCOCsSzIGzfd8lZg-Rf4SCw4PYAyGFT5Axq31eKzfIsG0sdm-xr-7Tl9Y_nlU6DfQgsT7i0js7jH4Hsig7xAYmLFxEbZ1QJmL7ACRh2Je6g_Ax7VVr3B_EqTC4rz9nrgdGZ5wGFHCF75-smdGaB9pfimgDNopcY7EPNQFn","width":3120}],"place_id":"ChIJX6TVOWXAwjsRV9hVtttnnYk","rating":3.6,"reference":"ChIJX6TVOWXAwjsRV9hVtttnnYk","scope":"GOOGLE","types":["hospital","health","point_of_interest","establishment"],"user_ratings_total":14,"vicinity":"GV93+XP5, Shaniwar Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5164297,"lng":73.85613289999999},"viewport":{"northeast":{"lat":18.5177851802915,"lng":73.85754053029149},"southwest":{"lat":18.5150872197085,"lng":73.85484256970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_hindu-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/worship_hindu_pinlet","name":"Shrimant Dagdusheth Halwai Ganpati Mandir","opening_hours":{"open_now":false},"photos":[{"height":3465,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/116241813560247917925\">Bhushan Mahangare</a>"],"photo_reference":"AWYs27yDoybJUbyJEbprtNJaNdWWv_87dm_LnyW9r4HTvy5Fln6OaEGDiHz-AEmv6mGZEfZVu1woPommYuhxdEf4FIpbaWWtotbDUvxzX8BvWLpLFGqPBmmAYRKcKJ5geR36-y3TrQjQlnNKYwuhkJxBAMRhazkOuwrQ9hZHt5XPFSXYSpuy","width":4616}],"place_id":"ChIJ_0K0pW_AwjsR4bxItvVl850","plus_code":{"compound_code":"GV84+HF Pune, Maharashtra, India","global_code":"7JCMGV84+HF"},"rating":4.8,"reference":"ChIJ_0K0pW_AwjsR4bxItvVl850","scope":"GOOGLE","types":["hindu_temple","tourist_attraction","place_of_worship","point_of_interest","establishment"],"user_ratings_total":169065,"vicinity":"Ganpati Bhavan, 250, शिवाजी रस्ता, मेहुणपुरा, बुधवार पेठ, पुणे"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5167583,"lng":73.855203},"viewport":{"northeast":{"lat":18.5181365802915,"lng":73.8565457302915},"southwest":{"lat":18.5154386197085,"lng":73.8538477697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Krishna Book Centre","opening_hours":{"open_now":false},"place_id":"ChIJFZZXlW_AwjsRbsF4VqvhRu8","plus_code":{"compound_code":"GV84+P3 Pune, Maharashtra, India","global_code":"7JCMGV84+P3"},"rating":3.6,"reference":"ChIJFZZXlW_AwjsRbsF4VqvhRu8","scope":"GOOGLE","types":["book_store","point_of_interest","store","establishment"],"user_ratings_total":34,"vicinity":"153, Budhwar peth, Near Balaji Temple, Appa Balwant Chowk, Narsinha Chintamani Kelkar Road, Narayan Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5209045,"lng":73.85578819999999},"viewport":{"northeast":{"lat":18.5221562802915,"lng":73.85713843029151},"southwest":{"lat":18.5194583197085,"lng":73.85444046970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Pune City Services","opening_hours":{"open_now":false},"photos":[{"height":4560,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/110551276979438261088\">Ajeet Sharma</a>"],"photo_reference":"AWYs27wFhQZR_1lDQgtwNpUp73Tj8CEDqT9rgfWE-ipuUIK0R8gb6jaV9t2JlAO3FElxCwUo-jn6wFkiJYLATlHdUm3fYjglhhyhujH32j8SF-O3sUwQqpKYYyRYth_SIu9Osq7065ttfcpsJSOSXQTl6j_rQIHgKNNCVGeyp6P-TSZJ10Lq","width":2160}],"place_id":"ChIJvz84-mTAwjsRl9WEL5w_iho","plus_code":{"compound_code":"GVC4+98 Pune, Maharashtra, India","global_code":"7JCMGVC4+98"},"rating":4,"reference":"ChIJvz84-mTAwjsRl9WEL5w_iho","scope":"GOOGLE","types":["point_of_interest","store","establishment"],"user_ratings_total":29,"vicinity":"Shop 1315, Agarwal Marg, Shobhapur, Shaniyar vada Dattwadi, Kasba Peth, Pune"},{"business_status":"CLOSED_TEMPORARILY","geometry":{"location":{"lat":18.5190441,"lng":73.8544632},"viewport":{"northeast":{"lat":18.5203983302915,"lng":73.85586073029151},"southwest":{"lat":18.5177003697085,"lng":73.8531627697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Sealex Enterprises","permanently_closed":true,"place_id":"ChIJV5iMp46_wjsRZ64JVB4_Tu8","plus_code":{"compound_code":"GV93+JQ Pune, Maharashtra, India","global_code":"7JCMGV93+JQ"},"reference":"ChIJV5iMp46_wjsRZ64JVB4_Tu8","scope":"GOOGLE","types":["point_of_interest","establishment"],"vicinity":"Ajol Ghar' Ground Floor, 482/B, Shrimant Bajirao Peshwe Path, Near Shaniwarwada"},{"business_status":"CLOSED_TEMPORARILY","geometry":{"location":{"lat":18.5205081,"lng":73.8567695},"viewport":{"northeast":{"lat":18.52192333029151,"lng":73.8581230302915},"southwest":{"lat":18.5192253697085,"lng":73.85542506970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Surya Roshni Limited","permanently_closed":true,"place_id":"ChIJYWXFp2XAwjsRhJpbfbG642E","rating":2.3,"reference":"ChIJYWXFp2XAwjsRhJpbfbG642E","scope":"GOOGLE","types":["hardware_store","point_of_interest","store","establishment"],"user_ratings_total":3,"vicinity":"Room No-425, 4th Floor, Sterling Centre, M G Road, M G Road, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5227888,"lng":73.8530024},"viewport":{"northeast":{"lat":18.5240973802915,"lng":73.85437128029149},"southwest":{"lat":18.52139941970849,"lng":73.85167331970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet","name":"PMC Post Office","photos":[{"height":3000,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/101544838753723536125\">Sumegh 619</a>"],"photo_reference":"AWYs27yUMpH_DRtHIpFiAciHKn2suOuHN0ehfhxs3xLVa9T9lccB8ImAMGKoiw4nivkVO8g5vz8jYcgMT6GCZpr95QWlYH84NfOGnzDfDHFijHbY5KMREdvuNSn2_yo_eGjegNqK-MpterdXclzv57Ebb_uiO_FnoNjoNlyoFr0_iX071hhV","width":4000}],"place_id":"ChIJ09ohU3vAwjsRJYEj5c-wEsY","rating":3.5,"reference":"ChIJ09ohU3vAwjsRJYEj5c-wEsY","scope":"GOOGLE","types":["post_office","point_of_interest","finance","establishment"],"user_ratings_total":10,"vicinity":"GVF3+466, Shivajinagar, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5167611,"lng":73.854275},"viewport":{"northeast":{"lat":18.5180461802915,"lng":73.85563788029151},"southwest":{"lat":18.5153482197085,"lng":73.85293991970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Rasik Sahitya","opening_hours":{"open_now":false},"photos":[{"height":4032,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/112667711731027131963\">ashok pakhare</a>"],"photo_reference":"AWYs27zN5MA_M5cCFggkED4vGo974FbBysrLpvmtztNlAczR8wmPNT_-JBpv2_12nqm5fMCMDYvnuSEtbHz5lS4FlH-u_r66jpjez5mZT0i03g70s1hWDfPeSfXrhVUYOmn5xQkP7naDhhwMtRKlb6sFBbSIFMJUIU7ry3guykaBHX0kTOAB","width":3024}],"place_id":"ChIJ-ceQ2G_AwjsRObVXpXAkaEU","plus_code":{"compound_code":"GV83+PP Pune, Maharashtra, India","global_code":"7JCMGV83+PP"},"rating":4.3,"reference":"ChIJ-ceQ2G_AwjsRObVXpXAkaEU","scope":"GOOGLE","types":["book_store","point_of_interest","store","establishment"],"user_ratings_total":316,"vicinity":"Appa Balwant Chowk, Tulshibaug, Budhwar Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5184952,"lng":73.85183669999999},"viewport":{"northeast":{"lat":18.5198334802915,"lng":73.8531446802915},"southwest":{"lat":18.5171355197085,"lng":73.85044671970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Shubhavishva","opening_hours":{"open_now":false},"photos":[{"height":864,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/100396908139522758029\">Shubhavishva</a>"],"photo_reference":"AWYs27w0pZe4wabrcHUyF9jo5herd4GQKdIkLQl87Fogf2acSpP6by-lm3cAjEsXgERUx7WhBF5thzWGm8AEA6qlZMMJNrP6YURxg7ISV_OPJjct8mcpkZFKdCWTjyYt8P3JvbblBTc-h7K6cmatFUoacBQVWGfwk0Lh3Zp7BcTzHnOTxnkC","width":1296}],"place_id":"ChIJVVVVFXDAwjsR7BF-yvzeG04","plus_code":{"compound_code":"GV92+9P Pune, Maharashtra, India","global_code":"7JCMGV92+9P"},"rating":3.7,"reference":"ChIJVVVVFXDAwjsR7BF-yvzeG04","scope":"GOOGLE","types":["health","point_of_interest","establishment"],"user_ratings_total":12,"vicinity":"First Floor,Flat no.102, Deolankar Wada, near Ahilyadevi Highschool, 423 A, Shaniwar Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5171451,"lng":73.85721649999999},"viewport":{"northeast":{"lat":18.5183663802915,"lng":73.8585523302915},"southwest":{"lat":18.5156684197085,"lng":73.8558543697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"THAKUR SHROFF & ELECTRIC COMPANY Authorized Distributors Polycab Wires)","opening_hours":{"open_now":false},"photos":[{"height":3000,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/112386909716374621650\">Lokesh Dhumal</a>"],"photo_reference":"AWYs27z9QRs4Jhf6Xb1O_wHtbNBPx2hB3_YU64Rqe-vgypDDQ8dbvhwtIRdukpBdJWZYj92-ukSebRsrBu8PsPxgONQTVJ9yhP58aNtq0VBrUPrARe1mNUKjjxg6uavY0bYgg1oSdtTihcprPs_EqiS0cTWAQVcRBNw_i0jxwMFfRiQoGseM","width":4000}],"place_id":"ChIJVVVVJW_AwjsRQwESk_KiL4E","plus_code":{"compound_code":"GV84+VV Pune, Maharashtra, India","global_code":"7JCMGV84+VV"},"rating":4.1,"reference":"ChIJVVVVJW_AwjsRQwESk_KiL4E","scope":"GOOGLE","types":["point_of_interest","store","establishment"],"user_ratings_total":118,"vicinity":"475, Narsinha Chintamani Kelkar Road, Budhwar Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5154276,"lng":73.85812680000001},"viewport":{"northeast":{"lat":18.5167758302915,"lng":73.85946868029151},"southwest":{"lat":18.51407786970849,"lng":73.85677071970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Jaytara Sanitary Wares","opening_hours":{"open_now":false},"photos":[{"height":560,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/112344133858147613325\">Jaytara Sanitary Wares</a>"],"photo_reference":"AWYs27wM8UdgVV3fhR62A7WF9D7EOOxt7HfaxZAKA1JAGyVgCSadF_4mKyuvZ8Juovfg0ARjrL6vSpqmUa8IJyzqJ0JPF0yPDDcdKCzyP_ad60rbdFbGcarS4gd9p4hbnc1hOQmcAumCo9NzhAofbXfw1SDc64rJJsjL3VN-NjHevDaeTq-_","width":310}],"place_id":"ChIJBXhX3m7AwjsRkW4WeZbV0ZE","plus_code":{"compound_code":"GV85+57 Pune, Maharashtra, India","global_code":"7JCMGV85+57"},"rating":4.5,"reference":"ChIJBXhX3m7AwjsRkW4WeZbV0ZE","scope":"GOOGLE","types":["hardware_store","point_of_interest","store","establishment"],"user_ratings_total":35,"vicinity":"near Vijay Maruti Chowk, 998, Jaytara Complex, near Vijay Maruti Chowk, Bhutkar Haud Marg, Budhwar Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5173118,"lng":73.8593343},"viewport":{"northeast":{"lat":18.5186799302915,"lng":73.86068403029151},"southwest":{"lat":18.5159819697085,"lng":73.8579860697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Eagle Services","opening_hours":{"open_now":false},"place_id":"ChIJVVVVJW_AwjsR8L9HleKUBBc","plus_code":{"compound_code":"GV85+WP Pune, Maharashtra, India","global_code":"7JCMGV85+WP"},"rating":4.5,"reference":"ChIJVVVVJW_AwjsR8L9HleKUBBc","scope":"GOOGLE","types":["hardware_store","point_of_interest","store","establishment"],"user_ratings_total":2,"vicinity":"782, Budhwar Peth, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5195203,"lng":73.85209569999999},"viewport":{"northeast":{"lat":18.5208714302915,"lng":73.8534786802915},"southwest":{"lat":18.5181734697085,"lng":73.85078071970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png","icon_background_color":"#4B96F3","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet","name":"Aditi Enterprises","opening_hours":{"open_now":false},"photos":[{"height":810,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/108346369634222483924\">Aditi Enterprises</a>"],"photo_reference":"AWYs27x2pEmiXAkMM4gDzl6tURU4IMrauoFs9TrLEUCDrZr6elFSBgGZAJf_EkF5P_cpLmQN_W3yWMoPoRwva_qDKb_ktkpDGdNIASprBRHckBJ0h-UiMyczHFcEf8x9VWOVHA1l3csUx2HADFp4mdhjLCr4ARnQZvmZmHXOUMeFPG0NYqM-","width":1440}],"place_id":"ChIJy7cuKnTAwjsRrBX8GSfo4wk","plus_code":{"compound_code":"GV92+RR Pune, Maharashtra, India","global_code":"7JCMGV92+RR"},"rating":4.3,"reference":"ChIJy7cuKnTAwjsRrBX8GSfo4wk","scope":"GOOGLE","types":["electronics_store","point_of_interest","store","establishment"],"user_ratings_total":109,"vicinity":"near veer maruti mandir, 127/B, Shop No.2, Behind Behind Shaniwar Peth Police Chowky, near veer maruti mandir, Pune"},{"business_status":"CLOSED_TEMPORARILY","geometry":{"location":{"lat":18.5173119,"lng":73.85189969999999},"viewport":{"northeast":{"lat":18.5186653302915,"lng":73.8532874302915},"southwest":{"lat":18.5159673697085,"lng":73.85058946970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet","name":"MIT UTS","permanently_closed":true,"place_id":"ChIJ8c5HcnDAwjsRGiQCshJZgNI","plus_code":{"compound_code":"GV82+WQ Pune, Maharashtra, India","global_code":"7JCMGV82+WQ"},"rating":3,"reference":"ChIJ8c5HcnDAwjsRGiQCshJZgNI","scope":"GOOGLE","types":["point_of_interest","establishment"],"user_ratings_total":2,"vicinity":"S.No.124, Ex-Servicemen Colony First Floor, Unit W 105, World Peace Centre, Paud Road, Kothrud, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5248852,"lng":73.8551734},"viewport":{"northeast":{"lat":18.5262321302915,"lng":73.8565840302915},"southwest":{"lat":18.52353416970849,"lng":73.8538860697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Kale & Shinde Associates","opening_hours":{"open_now":false},"photos":[{"height":1024,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/104720277595374876518\">Kale &amp; Shinde Associates</a>"],"photo_reference":"AWYs27xlkdS17aYEZHNdQl6EF1me0m1ZNU1IgCfptOMNVuhpIiNtAdRpzNEwGAkIYBpVvjXBrgGAOADvfvCFBp-ZGGxo2g0kHFrXiODJp1b8KYGNESsD6jk0RXUr_N5yXrvSMkRycnlnODaT0dP4hEk_K1NeHzdgA2qOQlvEYerdbaMKIZ2w","width":768}],"place_id":"ChIJh16BIPfBwjsRP6bsm6UoDJg","plus_code":{"compound_code":"GVF4+X3 Pune, Maharashtra, India","global_code":"7JCMGVF4+X3"},"rating":4.8,"reference":"ChIJh16BIPfBwjsRP6bsm6UoDJg","scope":"GOOGLE","types":["point_of_interest","establishment"],"user_ratings_total":80,"vicinity":"2nd floor, Chunawala Chambers, 103, Abdul Ajiz Memon Path, Tophakhana, Shivajinagar, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5181973,"lng":73.85194539999999},"viewport":{"northeast":{"lat":18.5195338302915,"lng":73.8532394302915},"southwest":{"lat":18.5168358697085,"lng":73.85054146970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Hasabnis Residency, Hasabnis Bakhal","place_id":"ChIJ43wkmXrAwjsRWysDZj7fUB4","plus_code":{"compound_code":"GV92+7Q Pune, Maharashtra, India","global_code":"7JCMGV92+7Q"},"rating":5,"reference":"ChIJ43wkmXrAwjsRWysDZj7fUB4","scope":"GOOGLE","types":["point_of_interest","establishment"],"user_ratings_total":2,"vicinity":"444 Shaniwar Peth, Pune, Maharashtra"},{"geometry":{"location":{"lat":18.5258965,"lng":73.8610191},"viewport":{"northeast":{"lat":18.52871602877081,"lng":73.86745997555333},"southwest":{"lat":18.51850242762068,"lng":73.85462600889491}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Kasba Peth","photos":[{"height":3464,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/118352799596033677082\">SIDDHARTHA KADAM</a>"],"photo_reference":"AWYs27yURSpzlgAIYt_aHQ_eUCOFROli5Ij5qDiVp2HG4Zi6ZVji8X8uh6dVHxuy7zr9WuC25CRDEMZLhLPKhSrtrYOHeT7Ae5eCmE35uEFnSgLHy3wCkaDjIqIjzz9MkIncD72bAZCOrwaWqyDybGlPsYS1rVVgyibH3esUioRsx0c8nSfs","width":4618}],"place_id":"ChIJBXF-uGbAwjsRrtT9SMM76-g","reference":"ChIJBXF-uGbAwjsRrtT9SMM76-g","scope":"GOOGLE","types":["sublocality_level_1","sublocality","political"],"vicinity":"Kasba Peth"}],"status":"OK"}
+2025-01-21 01:17:05,567 - INFO - Nearby locations: ['Name: Pune\nAddress: Pune\nDistance: 0.01 km\nGoogle Maps: https://www.google.com/maps?q=18.5204303,73.8567437\n', 'Name: Hotel Basera\nAddress: 689 Shreemant Thorle Bajirav, Milkha Singh Sports Complex Road, Narayan Peth, Pune\nDistance: 0.38 km\nGoogle Maps: https://www.google.com/maps?q=18.5179847,73.8541104\n', 'Name: Manish Clinic\nAddress: GV94+VX7, Ramganesh Gadkari Path, Yashodatta Housing Society, Kasba Peth, Pune\nDistance: 0.11 km\nGoogle Maps: https://www.google.com/maps?q=18.5196659,73.8574263\n', 'Name: Mukundrao Lele Hospital\nAddress: GV93+XP5, Shaniwar Peth, Pune\nDistance: 0.25 km\nGoogle Maps: https://www.google.com/maps?q=18.5198803,73.8543558\n', 'Name: Shrimant Dagdusheth Halwai Ganpati Mandir\nAddress: Ganpati Bhavan, 250, शिवाजी रस्ता, मेहुणपुरा, बुधवार पेठ, पुणे\nDistance: 0.45 km\nGoogle Maps: https://www.google.com/maps?q=18.5164297,73.85613289999999\n', 'Name: Krishna Book Centre\nAddress: 153, Budhwar peth, Near Balaji Temple, Appa Balwant Chowk, Narsinha Chintamani Kelkar Road, Narayan Peth, Pune\nDistance: 0.43 km\nGoogle Maps: https://www.google.com/maps?q=18.5167583,73.855203\n', 'Name: Pune City Services\nAddress: Shop 1315, Agarwal Marg, Shobhapur, Shaniyar vada Dattwadi, Kasba Peth, Pune\nDistance: 0.11 km\nGoogle Maps: https://www.google.com/maps?q=18.5209045,73.85578819999999\n', "Name: Sealex Enterprises\nAddress: Ajol Ghar' Ground Floor, 482/B, Shrimant Bajirao Peshwe Path, Near Shaniwarwada\nDistance: 0.28 km\nGoogle Maps: https://www.google.com/maps?q=18.5190441,73.8544632\n", 'Name: Surya Roshni Limited\nAddress: Room No-425, 4th Floor, Sterling Centre, M G Road, M G Road, Pune\nDistance: 0.01 km\nGoogle Maps: https://www.google.com/maps?q=18.5205081,73.8567695\n', 'Name: PMC Post Office\nAddress: GVF3+466, Shivajinagar, Pune\nDistance: 0.47 km\nGoogle Maps: https://www.google.com/maps?q=18.5227888,73.8530024\n', 'Name: Rasik Sahitya\nAddress: Appa Balwant Chowk, Tulshibaug, Budhwar Peth, Pune\nDistance: 0.48 km\nGoogle Maps: https://www.google.com/maps?q=18.5167611,73.854275\n', 'Name: Shubhavishva\nAddress: First Floor,Flat no.102, Deolankar Wada, near Ahilyadevi Highschool, 423 A, Shaniwar Peth, Pune\nDistance: 0.55 km\nGoogle Maps: https://www.google.com/maps?q=18.5184952,73.85183669999999\n', 'Name: THAKUR SHROFF & ELECTRIC COMPANY Authorized Distributors Polycab Wires)\nAddress: 475, Narsinha Chintamani Kelkar Road, Budhwar Peth, Pune\nDistance: 0.37 km\nGoogle Maps: https://www.google.com/maps?q=18.5171451,73.85721649999999\n', 'Name: Jaytara Sanitary Wares\nAddress: near Vijay Maruti Chowk, 998, Jaytara Complex, near Vijay Maruti Chowk, Bhutkar Haud Marg, Budhwar Peth, Pune\nDistance: 0.57 km\nGoogle Maps: https://www.google.com/maps?q=18.5154276,73.85812680000001\n', 'Name: Eagle Services\nAddress: 782, Budhwar Peth, Pune\nDistance: 0.44 km\nGoogle Maps: https://www.google.com/maps?q=18.5173118,73.8593343\n', 'Name: Aditi Enterprises\nAddress: near veer maruti mandir, 127/B, Shop No.2, Behind Behind Shaniwar Peth Police Chowky, near veer maruti mandir, Pune\nDistance: 0.50 km\nGoogle Maps: https://www.google.com/maps?q=18.5195203,73.85209569999999\n', 'Name: MIT UTS\nAddress: S.No.124, Ex-Servicemen Colony First Floor, Unit W 105, World Peace Centre, Paud Road, Kothrud, Pune\nDistance: 0.61 km\nGoogle Maps: https://www.google.com/maps?q=18.5173119,73.85189969999999\n', 'Name: Kale & Shinde Associates\nAddress: 2nd floor, Chunawala Chambers, 103, Abdul Ajiz Memon Path, Tophakhana, Shivajinagar, Pune\nDistance: 0.52 km\nGoogle Maps: https://www.google.com/maps?q=18.5248852,73.8551734\n', 'Name: Hasabnis Residency, Hasabnis Bakhal\nAddress: 444 Shaniwar Peth, Pune, Maharashtra\nDistance: 0.56 km\nGoogle Maps: https://www.google.com/maps?q=18.5181973,73.85194539999999\n', 'Name: Kasba Peth\nAddress: Kasba Peth\nDistance: 0.76 km\nGoogle Maps: https://www.google.com/maps?q=18.5258965,73.8610191\n']
+2025-01-21 01:19:07,112 - INFO - Received request: {'responseId': 'e3bac12a-e9c5-43a1-80bb-dc534aca5feb-acd8d9b5', 'queryResult': {'queryText': '73.7769', 'parameters': {'lat': 18.5642, 'lon': 73.7769, 'place_type': ''}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5642, 'lat.original': '18.5642', 'lon': 73.7769, 'lon.original': '73.7769', 'place_type': '', 'place_type.original': ''}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'text': '73.7769', 'message_id': '1225', 'date': '1737402546', 'from': {'last_name': 'Rajput', 'first_name': 'Abhishek', 'language_code': 'en', 'id': '956521460'}, 'chat': {'id': '956521460', 'type': 'private'}}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:19:07,112 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5642,73.7769&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10
+2025-01-21 01:19:13,153 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5642,73.7769&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-21 01:19:13,157 - INFO - API response received: 200
+2025-01-21 01:19:13,158 - INFO - API response content: {
+   "html_attributions" : [],
+   "next_page_token" : "AWYs27zOAaZYG7J4NWtEraVHs93KcO7B7S9FUsqfoqdz0Fv3vebS7BNJq7VFX1bm87TF1tm3OjxO6Sbj__mVJ4qejBofxuaZVoNi70fHuKntJZNLjb3SNeVY3WFSx_V_NGGRcoZ7F4QhpqMkRBhR-xlVkTu_tzlKBLE6g2wjYUmN94EgzXXh_a-A8Ku2zw_KdkE84VuUjBvVuQNfe40_6Pw5bZ-h3BNZ-NeG8113i7BcrU8LOTn_gk7-sCeu3az8YFofZlPAroM8opTURiLJ1eKwHXivzFJ40sfGjehIsuZjsFgEmGptcr3kdBHKGB9ibQp6RSW0fprtrFj_A5w_qBH-1cg3D1n7zQr6sAH3QkdYLnGhYHm0Euic_nPmOQCrN_gnkBAtbMRvTY9_9XwQt9FoJRJOYfkkXR1Gv9fG2ohuXN7x",
+   "results" : 
+   [
+      {
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5204303,
+               "lng" : 73.8567437
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.63575454184845,
+                  "lng" : 73.98645688287952
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.41347844795833,
+                  "lng" : 73.73947793919952
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Pune",
+         "photos" : 
+         [
+            {
+               "height" : 619,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103680574894460786041\"\u003eSujit Ingle\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27wPnQIrkHPMJZvMFMEQTVh1n3oTZQZ_rdW2PkKlQxxAe01i2uT8ZCO8DdF6cD_Yu808F0MjnAknpqSTfNpwzo1tC7q89a0-kpcfwFPIE1GK7g1Ke1-R25u8QX3bCOumRMs6lnk5ek8fnwJOyL6KsLAnppqdMuSxsURfB_mm0-YJBkmA",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJARFGZy6_wjsRQ-Oenb9DjYI",
+         "reference" : "ChIJARFGZy6_wjsRQ-Oenb9DjYI",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ],
+         "vicinity" : "Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.58103,
+               "lng" : 73.76055339999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.58231463029151,
+                  "lng" : 73.76197968029149
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5796166697085,
+                  "lng" : 73.75928171970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Ramada Plaza by Wyndham Pune Hinjewadi",
+         "photos" : 
+         [
+            {
+               "height" : 6936,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114929536846452098036\"\u003eShuvrasish Roy\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27xPM99VnNeKkwSjxitAAs23Lm4QNCCzQGRG0rUWrmJ1lQ4e-LM8tmp_9DN32a8ACNmZMGoG0qUjGVfQIChhi4jclnogGNYsUwyeDTEHU6-JZwbks5krJKVzbpGeF5H18FRdlmUlnJnt-SJ0RA3DMSXSuSzji4B4lCrYsmeqLik1QFO1",
+               "width" : 9248
+            }
+         ],
+         "place_id" : "ChIJublZV8C-wjsRA8xaHurzUV8",
+         "plus_code" : 
+         {
+            "compound_code" : "HQJ6+C6 Pune, Maharashtra, India",
+            "global_code" : "7JCMHQJ6+C6"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJublZV8C-wjsRA8xaHurzUV8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 5581,
+         "vicinity" : "next to Shree Chatrapati Sports complex, Pune Banglore Highway Pashan Exit, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5707794,
+               "lng" : 73.7644648
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5721688802915,
+                  "lng" : 73.76583948029152
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5694709197085,
+                  "lng" : 73.76314151970851
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "The Orchid Hotel Pune",
+         "photos" : 
+         [
+            {
+               "height" : 4480,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100282105839766190060\"\u003eThe Orchid Hotel Pune\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27xGaSmF0pwF_LRTldOGAmz3mWSVBT7qsTmGuZVi85Y6m0kalkJRT4broYRvqk0-lRnjEFOLkie2UMaxihGMunMsy8nawmpUx61smKULeA4msc16adMp8Qn7UdNPI9Qgzs6ZsmFDp8ZqaI2Y1CCktkANn5fZYF3XYsx38WPEm9Gi4jz3",
+               "width" : 6720
+            }
+         ],
+         "place_id" : "ChIJx_Vw9Uy5wjsRuFfk6fag9d0",
+         "plus_code" : 
+         {
+            "compound_code" : "HQC7+8Q Pune, Maharashtra, India",
+            "global_code" : "7JCMHQC7+8Q"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJx_Vw9Uy5wjsRuFfk6fag9d0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 20024,
+         "vicinity" : "SHREE SHIV CHHATRAPATI SPORTS COMPLEX, adjacent Chatrapati Shivaji Maharaj Road, Bengaluru - Mumbai Highway, बालेवाडी, पुणे"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5723181,
+               "lng" : 73.7695504
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5737439802915,
+                  "lng" : 73.7708948302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5710460197085,
+                  "lng" : 73.76819686970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Merrygold Inn",
+         "photos" : 
+         [
+            {
+               "height" : 612,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104592722656561684046\"\u003eSujeet pawar\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27w5BwTXhEl-RMRFUw4go8qOFsXbwtQhRzMmn-TwKt5iGg4BfhbBsOtteSNiweY4tTxs3-gNCpyeoCQBHm6hUhuzFIp29bqTvgwAinl3FQ8S5ryCqoas7Nx9J4jBg8Km-4F2poLhsikC3CimhdXEP69poa1rNDbd1zowi0lfw2FXSNoD",
+               "width" : 816
+            }
+         ],
+         "place_id" : "ChIJux6sOEq5wjsRdOFNJ6mjEV8",
+         "plus_code" : 
+         {
+            "compound_code" : "HQC9+WR Pune, Maharashtra, India",
+            "global_code" : "7JCMHQC9+WR"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJux6sOEq5wjsRdOFNJ6mjEV8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 39,
+         "vicinity" : "25 Merry Gold SNO :, 23, Balewadi Road, Baner, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5576333,
+               "lng" : 73.7881266
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5594577302915,
+                  "lng" : 73.78932123029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5567597697085,
+                  "lng" : 73.7866232697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "United 21 The Grand",
+         "photos" : 
+         [
+            {
+               "height" : 958,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109512393368430428398\"\u003eRahul Jagade\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27yvfMTlqfd0bCRDmRdWhNLCYSpOGJR31I2Rnt72Yz14HPvj76FBQqgVh2tjH6uhC8Nb7_JWXc8Gj3j80VonrNmiEYvJJ-6F_Pfo0lAhn2BGlc-L-_aoTvCJ8FHs8FIauEt6WehEOH21yyK2Z6Ig4TibwJCUA-ajckGe18chP3GXce75",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJsQ7ECdy-wjsRGiqpofnnQXo",
+         "rating" : 4,
+         "reference" : "ChIJsQ7ECdy-wjsRGiqpofnnQXo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1620,
+         "vicinity" : "HQ5Q+372, Baner Hills, Baner, Pune"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5630767,
+               "lng" : 73.7809955
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5643612302915,
+                  "lng" : 73.78234333029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5616632697085,
+                  "lng" : 73.7796453697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "hotel casa grande studios",
+         "permanently_closed" : true,
+         "photos" : 
+         [
+            {
+               "height" : 2340,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107518130540281947838\"\u003eJimit\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zQ2x0okoDS3kiJkoRWre9TjOZagmzYMpr1emllkNwkS8bOqV6y_X1QLnVVDfXqjL5hDlhky9M8z-8GSbK_OKJlSJ2Uhk-ZXwabn6cVEeL_c4_jLvXOszxLQEjtmtYGyQWPi6_1Ns4eNHFNzbmLTtrDVwbE6PalQM6iTMovDZlft5Y",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJAQAA9NG-wjsRMjJ0Kt-e7NM",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ7J+69 Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ7J+69"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJAQAA9NG-wjsRMjJ0Kt-e7NM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 109,
+         "vicinity" : "81/1, plot No. 2, Vithal Vista Rutuja Park Society, Orchid School, Lane, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.551687,
+               "lng" : 73.759638
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5533814302915,
+                  "lng" : 73.7610751302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5506834697085,
+                  "lng" : 73.7583771697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "OYO 9759 Hotel Western Park",
+         "photos" : 
+         [
+            {
+               "height" : 3264,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109051955309593520590\"\u003eRishi Reddy\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zpSEYwuGiCdXZofSM_Oew8D6XzAvmEgYs5UJk5Oz2oX7fWNmKbg43b_bGnUFigO2wemHPIaXJQzWEHsb1Pz4lonDamdjvgCmSN8Y9DINRaRSw2AaqPBzRNbaUaJ7-wpPBOxgoX_cJb_Hb_Gis-CddeO_bxGMDMzxn5W9kysj6r7x-d",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJHUU-Nbu-wjsRasi3ecFe58k",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ25+MV Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ25+MV"
+         },
+         "price_level" : 2,
+         "rating" : 3.5,
+         "reference" : "ChIJHUU-Nbu-wjsRasi3ecFe58k",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 861,
+         "vicinity" : "Service Centre, 49 Pune-Banglore Highway, opposite Nisan, Pashan - Sus Road, Sus, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.555627,
+               "lng" : 73.771366
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5568784802915,
+                  "lng" : 73.7727240302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5541805197085,
+                  "lng" : 73.77002606970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Kshitij",
+         "photos" : 
+         [
+            {
+               "height" : 428,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105332671243011565456\"\u003eHotel Kshitij\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zNYa8I0SlmVuiEGhBRVB2NPC5mvYfJuE22aPyRdqkYn9DE6ixqdMOUri25IdbS2zgPptSJQ2F3dsnrYvBk0yrDO3H-30jKXSadpvEzkKN2tc1OmMJi7cXW0TqWb4VNt5qNTNa6tKSEgkFhDE1D5VS4Fvwr40E8WRWUYXmGnwqYAIY-",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJFd2A9ce-wjsRUzYzmEqwhs0",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ4C+7G Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ4C+7G"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJFd2A9ce-wjsRUzYzmEqwhs0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 366,
+         "vicinity" : "Kshitij Height, Third floor,Above TVS Showroom Mumbai, Bypass Road, Baner, Bangalore"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5770095,
+               "lng" : 73.77636729999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5783634302915,
+                  "lng" : 73.7777164802915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5756654697085,
+                  "lng" : 73.7750185197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "OYO 72397 Royal Garden",
+         "photos" : 
+         [
+            {
+               "height" : 427,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105943356626576768542\"\u003eOYO 72397 Royal Garden\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27wSEW66OAu_9gEgjTkiGbDQTMC07Yresi8E5lNKvbmQWdoQQ3XQMeV7KTB-N8xNYceWou_wDAbaPe6ID-XGbQ4DnhWMTFbHz7KTc6hDWEbl5yjjS-OknZZgP0HITMxeth63G4onTF61bzn8oHboQq5AxksueVINe8XhVqD3l2uf_xcq",
+               "width" : 759
+            }
+         ],
+         "place_id" : "ChIJdUIk0Ta5wjsRFHWrMcs8S-s",
+         "plus_code" : 
+         {
+            "compound_code" : "HQGG+RG Pune, Maharashtra, India",
+            "global_code" : "7JCMHQGG+RG"
+         },
+         "reference" : "ChIJdUIk0Ta5wjsRFHWrMcs8S-s",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Saptagiri, S.No.1/7 Plot No.24, Balewadi Gaon, Balewadi, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5522585,
+               "lng" : 73.79208030000001
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5535278802915,
+                  "lng" : 73.79343143029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5508299197085,
+                  "lng" : 73.7907334697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "ColorKnit Events n Production-Event Management Company in Pune",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 540,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103386102255667536436\"\u003eColorKnit Events n Production-Event Management Company in Pune\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zOu9F41bzjakE1besEZrzW0-L6GckBoKtB5lh6TKPtFBdhEe2joufYkm2t-lmJPTHVbh6mAfljmqVBWR7Mu5qkup-rwiqunN75eqQ2FRWnutUJiu9w_yutCEorY6uFg2xwjBRt-Ec6uPBZe-FhAoTUjZRjgdRSsQLu_o-RYFpMiMzm",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJRcQ6ZCm_wjsRoLXPZVyyhXg",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ2R+WR Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ2R+WR"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJRcQ6ZCm_wjsRoLXPZVyyhXg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 42,
+         "vicinity" : "3rd Flr Flat No. 303, Fortune House, S. No. 6/1/10, Baner - Pashan Link Road, Baner, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.544365,
+               "lng" : 73.782898
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5456978802915,
+                  "lng" : 73.78434433029152
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5429999197085,
+                  "lng" : 73.7816463697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Mont Vert Luxury Homes",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 525,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103569015250744092908\"\u003eDevikmail Devik\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27wyYo05_mpEWMqkjmpSG2n08rrjcrfGs-0nthVzgaQYs4_exEmZ8KwaaNIvRcDDV5ItDvtyy8DWvH9hmrljJ1_3fzmZ2ZN_iNQ9h-CwSYG1Ja293UlcsDRZ8alDkVfM5qFRe42AM0d1s3nHOLKzN6aaprs-JzWazxwLDEPIGav04PtL",
+               "width" : 706
+            }
+         ],
+         "place_id" : "ChIJGSYTFei-wjsR4RBxf9pVgiY",
+         "plus_code" : 
+         {
+            "compound_code" : "GQVM+P5 Pune, Maharashtra, India",
+            "global_code" : "7JCMGQVM+P5"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJGSYTFei-wjsR4RBxf9pVgiY",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "general_contractor",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 176,
+         "vicinity" : "129, Mont Vert Marc, 2, Pashan - Sus Road, Pashan, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5447988,
+               "lng" : 73.78051839999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5460414302915,
+                  "lng" : 73.78182838029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5433434697085,
+                  "lng" : 73.77913041970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/pharmacy-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/pharmacy_pinlet",
+         "name" : "Hindustan Drug House",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4160,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116772878283837919400\"\u003eHindustan Drug House\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zbW_5S_flqKakkkacU4XqI5PdZ3P8gMIKz_wmwfXbaLEyWNW6aa87PG5_kwLfb--tAs65fgwf4tkjuKGW69jlFVATEVPq1jbIzmC0lCD2h3DjCXSwo0457zCsDHf1MzipBAxGvJ4s9hiAahOukT_V60JudcBlcz9er66VKAOMNBU7l",
+               "width" : 1952
+            }
+         ],
+         "place_id" : "ChIJB_jBSei-wjsRIigM2c8M9tQ",
+         "plus_code" : 
+         {
+            "compound_code" : "GQVJ+W6 Pune, Maharashtra, India",
+            "global_code" : "7JCMGQVJ+W6"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJB_jBSei-wjsRIigM2c8M9tQ",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "pharmacy",
+            "store",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 5,
+         "vicinity" : "Pashan - Sus Road, Pashan, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5643534,
+               "lng" : 73.7780983
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.56567838029151,
+                  "lng" : 73.77956213029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5629804197085,
+                  "lng" : 73.7768641697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Hotel Amrita Executive Lodging",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 382,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109879784472539184367\"\u003eHotel Amrita Executive Lodging\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zxlW4U1Q-2717K0CELyoyd7tbajoCZrh0WWgy_mNpB3lzgcLm8aeSp9QQkbAVlIk4OrKVio1TJFCt_X0YKOqr1I1ZkfcQTBME_yJl6rwQfNtaaK9Jh5wEhQ9Il9OJh8Q76ZwF4uR1c7dH8jkzKH9RIQTUiEd31dJvnV5dNnbsFZ4t2",
+               "width" : 500
+            }
+         ],
+         "place_id" : "ChIJj5V6Rte-wjsRWnokOdl45O4",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ7H+P6 Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ7H+P6"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJj5V6Rte-wjsRWnokOdl45O4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4445,
+         "vicinity" : "Baner Road, Baner Gaon, Baner, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5633841,
+               "lng" : 73.78169989999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5647254302915,
+                  "lng" : 73.7828847302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5620274697085,
+                  "lng" : 73.78018676970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+         "name" : "The Orchid School",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 5504,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108067694019323155432\"\u003eThe Orchid School\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27yNF5XRmRDAihVxGcpZd0mi6sOU5YFibNE84yiTYqig02A0GtYhQNfFKVpRZZvHAI_orV_Cl0hR6bNWbvpEBowaj3bsG9u-GAe9GpMGrBMNO3Zpf06eenDvdpi2_t1oDxShmoVwk2g9WPR6Jqfcph4xoW9VhLjB2KBCZ8OGeTnXuUCR",
+               "width" : 8256
+            }
+         ],
+         "place_id" : "ChIJy8iMCs6-wjsRvQ95V4a4vro",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ7J+9M Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ7J+9M"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJy8iMCs6-wjsRvQ95V4a4vro",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "school",
+            "university",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 290,
+         "vicinity" : "S. No. 80, 1/2/1, Baner - Mahalunge Road, ललित इस्टेट, बाणेर, पुणे"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5709421,
+               "lng" : 73.7809359
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5722947802915,
+                  "lng" : 73.7823154302915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.56959681970849,
+                  "lng" : 73.7796174697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Comfort Zone Nest",
+         "photos" : 
+         [
+            {
+               "height" : 475,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110013692987478139403\"\u003eComfort Zone Nest\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zsMI4-8OVxf7eXinGqfnkt86Wef7OChZiLsVBtRlhHhM65tZFXWUHkoCQAk9EIJHDrfM6__9mpkQOrEG-3LScSlcW3yny9Sf47kYAxZ1-r9UHI8WRJNYUD21bygC1o7RRgMBn6sImGiXVvX9-aPkK6Lmb6TpeahfSGOTSsGK5wguwQ",
+               "width" : 980
+            }
+         ],
+         "place_id" : "ChIJfeixRS25wjsRyedaHAIj4fg",
+         "plus_code" : 
+         {
+            "compound_code" : "HQCJ+99 Pune, Maharashtra, India",
+            "global_code" : "7JCMHQCJ+99"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJfeixRS25wjsRyedaHAIj4fg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "finance",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 227,
+         "vicinity" : "s no, 18 (Part, Baner - Balewadi Road, Balewadi, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.560891,
+               "lng" : 73.76428709999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5623579802915,
+                  "lng" : 73.76565083029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5596600197085,
+                  "lng" : 73.76295286970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+         "name" : "VIBGYOR High, Balewadi",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 892,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115477798592539183495\"\u003eVIBGYOR High, Balewadi\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27w4EVFPYS3vz5G82RB8vgHO9B2laUbgjAXJ4F2bP-jSjlcp2MOYqcchBZPZ_TKMZvk_Qh1KO-7qW18QUm2J1oMG9qswXpVHyELxu-7loIhL9J1uh9-Ioo39MASsPApEWFjdpvltlKwKKBAP5DVDuZLG-qTWTWRcmslwf2KZSfo0wVXn",
+               "width" : 1030
+            }
+         ],
+         "place_id" : "ChIJl_Vztba-wjsRLOukSxgXTgM",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ67+9P Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ67+9P"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJl_Vztba-wjsRLOukSxgXTgM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "secondary_school",
+            "primary_school",
+            "school",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 213,
+         "vicinity" : "Kirloskar Brothers Limited, Sr. No. 28/2, Sus Village, Baner, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.568374,
+               "lng" : 73.76664649999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5698331302915,
+                  "lng" : 73.76807063029149
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5671351697085,
+                  "lng" : 73.76537266970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Sadanand Resorts",
+         "photos" : 
+         [
+            {
+               "height" : 810,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108333875420717025320\"\u003eसदानंद Resorts\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zDNH8dBC3Lac8wd9jexZVOVuTnZ8r-heqd3N1HXdrNc335xykiFRYvJGonns9MSl8q8b0nTV25gn5k4xIR5GqVVmmQKuJhnoWAVdgoE7DHv0I7peRBxylnKnNwNygKL5dzuGiDX0v_OZa6ZhnwBDOXb6Yn0ajPcTtjsMSmYApZxjQ",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJndyySku5wjsRQ6kseBh4aUo",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ98+8M Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ98+8M"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJndyySku5wjsRQ6kseBh4aUo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 864,
+         "vicinity" : "Opposite Balewadi Sports Complex, S No 105/3, Baner - Mahalunge Road, Baner, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.5592297,
+               "lng" : 73.7816313
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5606059802915,
+                  "lng" : 73.7829778802915
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5579080197085,
+                  "lng" : 73.78027991970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+         "name" : "Atithi Guest House",
+         "photos" : 
+         [
+            {
+               "height" : 2934,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106384587033019728818\"\u003eMohan Gupta\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27z31iLGiaZdBbaz6HvgYmS8YbXzHvxkD_TAm3nuEIDHouv-5TjbobmVFfg0ScGQw3fLE5iaV4pnolkSNNFIDDyKs2szpV0kuTfNA6HXDY1qYHK0Yj17J-GemiCsnaCcgmiHK6cX8grEEZeMA1JA023pCdEpsU8Tao31j2qF8gmyyE_e",
+               "width" : 2934
+            }
+         ],
+         "place_id" : "ChIJITg2kca-wjsRxmgR228u32c",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ5J+MM Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ5J+MM"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJITg2kca-wjsRxmgR228u32c",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 158,
+         "vicinity" : "Near Dmart, Flat No 801 B1. Silvermoon Building, Near Dmart, Pan Card Club Road, Baner, Pune"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.564291,
+               "lng" : 73.7802487
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.5656396802915,
+                  "lng" : 73.78156558029151
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.5629417197085,
+                  "lng" : 73.77886761970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Anshum M Photography",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2128,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110843928021909861343\"\u003eAnshum M Photography\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zThWzjI4Fz8Mt_NfncRDWx5UzI5IGdj6tvC17ZgCsqFfwui_cE4TBFw0I2zxwD5LYSMmLSu2j51Yb4Vv-gKYWzYbfONk4Akr0YFdtkgJnhPnLN7ssmW7To8u1UFxzxE5rigUyzZJGDU-sSbiUIQdReWBdATmC22rAuf6ZpjM84fxM8",
+               "width" : 1446
+            }
+         ],
+         "place_id" : "ChIJtXblaya_wjsRSk8yYVJ2REk",
+         "plus_code" : 
+         {
+            "compound_code" : "HQ7J+P3 Pune, Maharashtra, India",
+            "global_code" : "7JCMHQ7J+P3"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJtXblaya_wjsRSk8yYVJ2REk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 142,
+         "vicinity" : "Ram Indu Park Road, Pune"
+      },
+      {
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 18.6297811,
+               "lng" : 73.7997094
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 18.71714104715797,
+                  "lng" : 73.90750755362771
+               },
+               "southwest" : 
+               {
+                  "lat" : 18.56424934806608,
+                  "lng" : 73.67678118755947
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Pimpri-Chinchwad",
+         "photos" : 
+         [
+            {
+               "height" : 3456,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115665781907602033642\"\u003eArshad. Bagawan\u003c/a\u003e"
+               ],
+               "photo_reference" : "AWYs27zu7LNojxjtGBOIkGMFs9uPmm9ySdruyzO2Vee1xJo7q5qf7vlsTmTEuyOX-v3d-EKrh_40g1nkK_lRCJkA1cu644tNfd81C1M3WqCE8FpFpoBcWa_FtwlheFQNksElrvaOS38u-lQSu5oU9ARwWD7xlqz_Nc8WJF3bfD6_wVwYAqPR",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJs-q9fze4wjsR-KCnsdplQiw",
+         "reference" : "ChIJs-q9fze4wjsR-KCnsdplQiw",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ],
+         "vicinity" : "Pimpri-Chinchwad"
+      }
+   ],
+   "status" : "OK"
+}
+2025-01-21 01:19:13,158 - INFO - Nearby locations: ['Name: Pune\nAddress: Pune\nDistance: 9.72 km\nGoogle Maps: https://www.google.com/maps?q=18.5204303,73.8567437\n', 'Name: Ramada Plaza by Wyndham Pune Hinjewadi\nAddress: next to Shree Chatrapati Sports complex, Pune Banglore Highway Pashan Exit, Pune\nDistance: 2.54 km\nGoogle Maps: https://www.google.com/maps?q=18.58103,73.76055339999999\n', 'Name: The Orchid Hotel Pune\nAddress: SHREE SHIV CHHATRAPATI SPORTS COMPLEX, adjacent Chatrapati Shivaji Maharaj Road, Bengaluru - Mumbai Highway, बालेवाडी, पुणे\nDistance: 1.50 km\nGoogle Maps: https://www.google.com/maps?q=18.5707794,73.7644648\n', 'Name: Merrygold Inn\nAddress: 25 Merry Gold SNO :, 23, Balewadi Road, Baner, Pune\nDistance: 1.19 km\nGoogle Maps: https://www.google.com/maps?q=18.5723181,73.7695504\n', 'Name: United 21 The Grand\nAddress: HQ5Q+372, Baner Hills, Baner, Pune\nDistance: 1.39 km\nGoogle Maps: https://www.google.com/maps?q=18.5576333,73.7881266\n', 'Name: hotel casa grande studios\nAddress: 81/1, plot No. 2, Vithal Vista Rutuja Park Society, Orchid School, Lane, Pune\nDistance: 0.45 km\nGoogle Maps: https://www.google.com/maps?q=18.5630767,73.7809955\n', 'Name: OYO 9759 Hotel Western Park\nAddress: Service Centre, 49 Pune-Banglore Highway, opposite Nisan, Pashan - Sus Road, Sus, Pune\nDistance: 2.29 km\nGoogle Maps: https://www.google.com/maps?q=18.551687,73.759638\n', 'Name: Hotel Kshitij\nAddress: Kshitij Height, Third floor,Above TVS Showroom Mumbai, Bypass Road, Baner, Bangalore\nDistance: 1.12 km\nGoogle Maps: https://www.google.com/maps?q=18.555627,73.771366\n', 'Name: OYO 72397 Royal Garden\nAddress: Saptagiri, S.No.1/7 Plot No.24, Balewadi Gaon, Balewadi, Pune\nDistance: 1.43 km\nGoogle Maps: https://www.google.com/maps?q=18.5770095,73.77636729999999\n', 'Name: ColorKnit Events n Production-Event Management Company in Pune\nAddress: 3rd Flr Flat No. 303, Fortune House, S. No. 6/1/10, Baner - Pashan Link Road, Baner, Pune\nDistance: 2.08 km\nGoogle Maps: https://www.google.com/maps?q=18.5522585,73.79208030000001\n', 'Name: Mont Vert Luxury Homes\nAddress: 129, Mont Vert Marc, 2, Pashan - Sus Road, Pashan, Pune\nDistance: 2.29 km\nGoogle Maps: https://www.google.com/maps?q=18.544365,73.782898\n', 'Name: Hindustan Drug House\nAddress: Pashan - Sus Road, Pashan, Pune\nDistance: 2.19 km\nGoogle Maps: https://www.google.com/maps?q=18.5447988,73.78051839999999\n', 'Name: Hotel Amrita Executive Lodging\nAddress: Baner Road, Baner Gaon, Baner, Pune\nDistance: 0.13 km\nGoogle Maps: https://www.google.com/maps?q=18.5643534,73.7780983\n', 'Name: The Orchid School\nAddress: S. No. 80, 1/2/1, Baner - Mahalunge Road, ललित इस्टेट, बाणेर, पुणे\nDistance: 0.51 km\nGoogle Maps: https://www.google.com/maps?q=18.5633841,73.78169989999999\n', 'Name: Comfort Zone Nest\nAddress: s no, 18 (Part, Baner - Balewadi Road, Balewadi, Pune\nDistance: 0.86 km\nGoogle Maps: https://www.google.com/maps?q=18.5709421,73.7809359\n', 'Name: VIBGYOR High, Balewadi\nAddress: Kirloskar Brothers Limited, Sr. No. 28/2, Sus Village, Baner, Pune\nDistance: 1.38 km\nGoogle Maps: https://www.google.com/maps?q=18.560891,73.76428709999999\n', 'Name: Sadanand Resorts\nAddress: Opposite Balewadi Sports Complex, S No 105/3, Baner - Mahalunge Road, Baner, Pune\nDistance: 1.18 km\nGoogle Maps: https://www.google.com/maps?q=18.568374,73.7666465\n', 'Name: Atithi Guest House\nAddress: Near Dmart, Flat No 801 B1. Silvermoon Building, Near Dmart, Pan Card Club Road, Baner, Pune\nDistance: 0.74 km\nGoogle Maps: https://www.google.com/maps?q=18.5592297,73.7816313\n', 'Name: Anshum M Photography\nAddress: Ram Indu Park Road, Pune\nDistance: 0.35 km\nGoogle Maps: https://www.google.com/maps?q=18.564291,73.7802487\n', 'Name: Pimpri-Chinchwad\nAddress: Pimpri-Chinchwad\nDistance: 7.68 km\nGoogle Maps: https://www.google.com/maps?q=18.6297811,73.7997094\n']
+2025-01-21 01:19:51,451 - INFO - Received request: {'responseId': '515c44a2-1cfa-46a6-b978-75aaf804be57-acd8d9b5', 'queryResult': {'queryText': '73.7769', 'parameters': {'lat': 18.5642, 'lon': 73.7769, 'place_type': ''}, 'allRequiredParamsPresent': True, 'fulfillmentMessages': [{'text': {'text': ['']}}], 'outputContexts': [{'name': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca/contexts/__system_counters__', 'parameters': {'no-input': 0.0, 'no-match': 0.0, 'lat': 18.5642, 'lat.original': '18.5642', 'lon': 73.7769, 'lon.original': '73.7769', 'place_type': '', 'place_type.original': ''}}], 'intent': {'name': 'projects/location-based-interactiv-prqo/agent/intents/bd3d2502-6308-4c60-96ab-6405a3a67668', 'displayName': 'Get Nearby Location'}, 'intentDetectionConfidence': 1.0, 'languageCode': 'en'}, 'originalDetectIntentRequest': {'source': 'telegram', 'payload': {'data': {'message_id': '1230', 'text': '73.7769', 'from': {'language_code': 'en', 'first_name': 'Abhishek', 'last_name': 'Rajput', 'id': '956521460'}, 'chat': {'type': 'private', 'id': '956521460'}, 'date': '1737402590'}}}, 'session': 'projects/location-based-interactiv-prqo/agent/sessions/80b3c016-40df-39a3-b447-d2f9565b91ca'}
+2025-01-21 01:19:51,452 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5642,73.7769&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10
+2025-01-21 01:19:54,420 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5642,73.7769&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-21 01:19:54,423 - INFO - API response received: 200
+2025-01-21 01:19:54,424 - INFO - API response content: {"html_attributions":[],"next_page_token":"AWYs27zOAaZYG7J4NWtEraVHs93KcO7B7S9FUsqfoqdz0Fv3vebS7BNJq7VFX1bm87TF1tm3OjxO6Sbj__mVJ4qejBofxuaZVoNi70fHuKntJZNLjb3SNeVY3WFSx_V_NGGRcoZ7F4QhpqMkRBhR-xlVkTu_tzlKBLE6g2wjYUmN94EgzXXh_a-A8Ku2zw_KdkE84VuUjBvVuQNfe40_6Pw5bZ-h3BNZ-NeG8113i7BcrU8LOTn_gk7-sCeu3az8YFofZlPAroM8opTURiLJ1eKwHXivzFJ40sfGjehIsuZjsFgEmGptcr3kdBHKGB9ibQp6RSW0fprtrFj_A5w_qBH-1cg3D1n7zQr6sAH3QkdYLnGhYHm0Euic_nPmOQCrN_gnkBAtbMRvTY9_9XwQt9FoJRJOYfkkXR1Gv9fG2ohuXN7x","results":[{"geometry":{"location":{"lat":18.5204303,"lng":73.8567437},"viewport":{"northeast":{"lat":18.63575454184845,"lng":73.98645688287952},"southwest":{"lat":18.41347844795833,"lng":73.73947793919952}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Pune","photos":[{"height":619,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/103680574894460786041\">Sujit Ingle</a>"],"photo_reference":"AWYs27wPnQIrkHPMJZvMFMEQTVh1n3oTZQZ_rdW2PkKlQxxAe01i2uT8ZCO8DdF6cD_Yu808F0MjnAknpqSTfNpwzo1tC7q89a0-kpcfwFPIE1GK7g1Ke1-R25u8QX3bCOumRMs6lnk5ek8fnwJOyL6KsLAnppqdMuSxsURfB_mm0-YJBkmA","width":1080}],"place_id":"ChIJARFGZy6_wjsRQ-Oenb9DjYI","reference":"ChIJARFGZy6_wjsRQ-Oenb9DjYI","scope":"GOOGLE","types":["locality","political"],"vicinity":"Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.58103,"lng":73.76055339999999},"viewport":{"northeast":{"lat":18.58231463029151,"lng":73.76197968029149},"southwest":{"lat":18.5796166697085,"lng":73.75928171970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"Ramada Plaza by Wyndham Pune Hinjewadi","photos":[{"height":6936,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/114929536846452098036\">Shuvrasish Roy</a>"],"photo_reference":"AWYs27xPM99VnNeKkwSjxitAAs23Lm4QNCCzQGRG0rUWrmJ1lQ4e-LM8tmp_9DN32a8ACNmZMGoG0qUjGVfQIChhi4jclnogGNYsUwyeDTEHU6-JZwbks5krJKVzbpGeF5H18FRdlmUlnJnt-SJ0RA3DMSXSuSzji4B4lCrYsmeqLik1QFO1","width":9248}],"place_id":"ChIJublZV8C-wjsRA8xaHurzUV8","plus_code":{"compound_code":"HQJ6+C6 Pune, Maharashtra, India","global_code":"7JCMHQJ6+C6"},"rating":4.1,"reference":"ChIJublZV8C-wjsRA8xaHurzUV8","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":5581,"vicinity":"next to Shree Chatrapati Sports complex, Pune Banglore Highway Pashan Exit, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5707794,"lng":73.7644648},"viewport":{"northeast":{"lat":18.5721688802915,"lng":73.76583948029152},"southwest":{"lat":18.5694709197085,"lng":73.76314151970851}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"The Orchid Hotel Pune","photos":[{"height":4480,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/100282105839766190060\">The Orchid Hotel Pune</a>"],"photo_reference":"AWYs27xGaSmF0pwF_LRTldOGAmz3mWSVBT7qsTmGuZVi85Y6m0kalkJRT4broYRvqk0-lRnjEFOLkie2UMaxihGMunMsy8nawmpUx61smKULeA4msc16adMp8Qn7UdNPI9Qgzs6ZsmFDp8ZqaI2Y1CCktkANn5fZYF3XYsx38WPEm9Gi4jz3","width":6720}],"place_id":"ChIJx_Vw9Uy5wjsRuFfk6fag9d0","plus_code":{"compound_code":"HQC7+8Q Pune, Maharashtra, India","global_code":"7JCMHQC7+8Q"},"rating":4.2,"reference":"ChIJx_Vw9Uy5wjsRuFfk6fag9d0","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":20024,"vicinity":"SHREE SHIV CHHATRAPATI SPORTS COMPLEX, adjacent Chatrapati Shivaji Maharaj Road, Bengaluru - Mumbai Highway, बालेवाडी, पुणे"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5723181,"lng":73.7695504},"viewport":{"northeast":{"lat":18.5737439802915,"lng":73.7708948302915},"southwest":{"lat":18.5710460197085,"lng":73.76819686970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Merrygold Inn","photos":[{"height":612,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/104592722656561684046\">Sujeet pawar</a>"],"photo_reference":"AWYs27w5BwTXhEl-RMRFUw4go8qOFsXbwtQhRzMmn-TwKt5iGg4BfhbBsOtteSNiweY4tTxs3-gNCpyeoCQBHm6hUhuzFIp29bqTvgwAinl3FQ8S5ryCqoas7Nx9J4jBg8Km-4F2poLhsikC3CimhdXEP69poa1rNDbd1zowi0lfw2FXSNoD","width":816}],"place_id":"ChIJux6sOEq5wjsRdOFNJ6mjEV8","plus_code":{"compound_code":"HQC9+WR Pune, Maharashtra, India","global_code":"7JCMHQC9+WR"},"rating":3.8,"reference":"ChIJux6sOEq5wjsRdOFNJ6mjEV8","scope":"GOOGLE","types":["point_of_interest","establishment"],"user_ratings_total":39,"vicinity":"25 Merry Gold SNO :, 23, Balewadi Road, Baner, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5576333,"lng":73.7881266},"viewport":{"northeast":{"lat":18.5594577302915,"lng":73.7893212302915},"southwest":{"lat":18.5567597697085,"lng":73.7866232697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"United 21 The Grand","photos":[{"height":958,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/109512393368430428398\">Rahul Jagade</a>"],"photo_reference":"AWYs27yvfMTlqfd0bCRDmRdWhNLCYSpOGJR31I2Rnt72Yz14HPvj76FBQqgVh2tjH6uhC8Nb7_JWXc8Gj3j80VonrNmiEYvJJ-6F_Pfo0lAhn2BGlc-L-_aoTvCJ8FHs8FIauEt6WehEOH21yyK2Z6Ig4TibwJCUA-ajckGe18chP3GXce75","width":1280}],"place_id":"ChIJsQ7ECdy-wjsRGiqpofnnQXo","rating":4,"reference":"ChIJsQ7ECdy-wjsRGiqpofnnQXo","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":1620,"vicinity":"HQ5Q+372, Baner Hills, Baner, Pune"},{"business_status":"CLOSED_TEMPORARILY","geometry":{"location":{"lat":18.5630767,"lng":73.7809955},"viewport":{"northeast":{"lat":18.5643612302915,"lng":73.78234333029151},"southwest":{"lat":18.5616632697085,"lng":73.7796453697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"hotel casa grande studios","permanently_closed":true,"photos":[{"height":2340,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/107518130540281947838\">Jimit</a>"],"photo_reference":"AWYs27zQ2x0okoDS3kiJkoRWre9TjOZagmzYMpr1emllkNwkS8bOqV6y_X1QLnVVDfXqjL5hDlhky9M8z-8GSbK_OKJlSJ2Uhk-ZXwabn6cVEeL_c4_jLvXOszxLQEjtmtYGyQWPi6_1Ns4eNHFNzbmLTtrDVwbE6PalQM6iTMovDZlft5Y","width":4160}],"place_id":"ChIJAQAA9NG-wjsRMjJ0Kt-e7NM","plus_code":{"compound_code":"HQ7J+69 Pune, Maharashtra, India","global_code":"7JCMHQ7J+69"},"rating":4.1,"reference":"ChIJAQAA9NG-wjsRMjJ0Kt-e7NM","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":109,"vicinity":"81/1, plot No. 2, Vithal Vista Rutuja Park Society, Orchid School, Lane, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.551687,"lng":73.759638},"viewport":{"northeast":{"lat":18.5533814302915,"lng":73.7610751302915},"southwest":{"lat":18.5506834697085,"lng":73.7583771697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"OYO 9759 Hotel Western Park","photos":[{"height":3264,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/109051955309593520590\">Rishi Reddy</a>"],"photo_reference":"AWYs27zpSEYwuGiCdXZofSM_Oew8D6XzAvmEgYs5UJk5Oz2oX7fWNmKbg43b_bGnUFigO2wemHPIaXJQzWEHsb1Pz4lonDamdjvgCmSN8Y9DINRaRSw2AaqPBzRNbaUaJ7-wpPBOxgoX_cJb_Hb_Gis-CddeO_bxGMDMzxn5W9kysj6r7x-d","width":2448}],"place_id":"ChIJHUU-Nbu-wjsRasi3ecFe58k","plus_code":{"compound_code":"HQ25+MV Pune, Maharashtra, India","global_code":"7JCMHQ25+MV"},"price_level":2,"rating":3.5,"reference":"ChIJHUU-Nbu-wjsRasi3ecFe58k","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":861,"vicinity":"Service Centre, 49 Pune-Banglore Highway, opposite Nisan, Pashan - Sus Road, Sus, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.555627,"lng":73.771366},"viewport":{"northeast":{"lat":18.5568784802915,"lng":73.7727240302915},"southwest":{"lat":18.5541805197085,"lng":73.77002606970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"Hotel Kshitij","photos":[{"height":428,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/105332671243011565456\">Hotel Kshitij</a>"],"photo_reference":"AWYs27zNYa8I0SlmVuiEGhBRVB2NPC5mvYfJuE22aPyRdqkYn9DE6ixqdMOUri25IdbS2zgPptSJQ2F3dsnrYvBk0yrDO3H-30jKXSadpvEzkKN2tc1OmMJi7cXW0TqWb4VNt5qNTNa6tKSEgkFhDE1D5VS4Fvwr40E8WRWUYXmGnwqYAIY-","width":640}],"place_id":"ChIJFd2A9ce-wjsRUzYzmEqwhs0","plus_code":{"compound_code":"HQ4C+7G Pune, Maharashtra, India","global_code":"7JCMHQ4C+7G"},"rating":4.3,"reference":"ChIJFd2A9ce-wjsRUzYzmEqwhs0","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":366,"vicinity":"Kshitij Height, Third floor,Above TVS Showroom Mumbai, Bypass Road, Baner, Bangalore"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5770095,"lng":73.77636729999999},"viewport":{"northeast":{"lat":18.5783634302915,"lng":73.7777164802915},"southwest":{"lat":18.5756654697085,"lng":73.7750185197085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"OYO 72397 Royal Garden","photos":[{"height":427,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/105943356626576768542\">OYO 72397 Royal Garden</a>"],"photo_reference":"AWYs27wSEW66OAu_9gEgjTkiGbDQTMC07Yresi8E5lNKvbmQWdoQQ3XQMeV7KTB-N8xNYceWou_wDAbaPe6ID-XGbQ4DnhWMTFbHz7KTc6hDWEbl5yjjS-OknZZgP0HITMxeth63G4onTF61bzn8oHboQq5AxksueVINe8XhVqD3l2uf_xcq","width":759}],"place_id":"ChIJdUIk0Ta5wjsRFHWrMcs8S-s","plus_code":{"compound_code":"HQGG+RG Pune, Maharashtra, India","global_code":"7JCMHQGG+RG"},"reference":"ChIJdUIk0Ta5wjsRFHWrMcs8S-s","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"vicinity":"Saptagiri, S.No.1/7 Plot No.24, Balewadi Gaon, Balewadi, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5522585,"lng":73.79208030000001},"viewport":{"northeast":{"lat":18.5535278802915,"lng":73.7934314302915},"southwest":{"lat":18.5508299197085,"lng":73.7907334697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"ColorKnit Events n Production-Event Management Company in Pune","opening_hours":{"open_now":false},"photos":[{"height":540,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/103386102255667536436\">ColorKnit Events n Production-Event Management Company in Pune</a>"],"photo_reference":"AWYs27zOu9F41bzjakE1besEZrzW0-L6GckBoKtB5lh6TKPtFBdhEe2joufYkm2t-lmJPTHVbh6mAfljmqVBWR7Mu5qkup-rwiqunN75eqQ2FRWnutUJiu9w_yutCEorY6uFg2xwjBRt-Ec6uPBZe-FhAoTUjZRjgdRSsQLu_o-RYFpMiMzm","width":960}],"place_id":"ChIJRcQ6ZCm_wjsRoLXPZVyyhXg","plus_code":{"compound_code":"HQ2R+WR Pune, Maharashtra, India","global_code":"7JCMHQ2R+WR"},"rating":4.5,"reference":"ChIJRcQ6ZCm_wjsRoLXPZVyyhXg","scope":"GOOGLE","types":["point_of_interest","establishment"],"user_ratings_total":42,"vicinity":"3rd Flr Flat No. 303, Fortune House, S. No. 6/1/10, Baner - Pashan Link Road, Baner, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.544365,"lng":73.782898},"viewport":{"northeast":{"lat":18.5456978802915,"lng":73.78434433029152},"southwest":{"lat":18.5429999197085,"lng":73.7816463697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Mont Vert Luxury Homes","opening_hours":{"open_now":false},"photos":[{"height":525,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/103569015250744092908\">Devikmail Devik</a>"],"photo_reference":"AWYs27wyYo05_mpEWMqkjmpSG2n08rrjcrfGs-0nthVzgaQYs4_exEmZ8KwaaNIvRcDDV5ItDvtyy8DWvH9hmrljJ1_3fzmZ2ZN_iNQ9h-CwSYG1Ja293UlcsDRZ8alDkVfM5qFRe42AM0d1s3nHOLKzN6aaprs-JzWazxwLDEPIGav04PtL","width":706}],"place_id":"ChIJGSYTFei-wjsR4RBxf9pVgiY","plus_code":{"compound_code":"GQVM+P5 Pune, Maharashtra, India","global_code":"7JCMGQVM+P5"},"rating":3.9,"reference":"ChIJGSYTFei-wjsR4RBxf9pVgiY","scope":"GOOGLE","types":["general_contractor","point_of_interest","establishment"],"user_ratings_total":176,"vicinity":"129, Mont Vert Marc, 2, Pashan - Sus Road, Pashan, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5447988,"lng":73.78051839999999},"viewport":{"northeast":{"lat":18.5460414302915,"lng":73.78182838029151},"southwest":{"lat":18.5433434697085,"lng":73.7791304197085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/pharmacy-71.png","icon_background_color":"#F88181","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/pharmacy_pinlet","name":"Hindustan Drug House","opening_hours":{"open_now":false},"photos":[{"height":4160,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/116772878283837919400\">Hindustan Drug House</a>"],"photo_reference":"AWYs27zbW_5S_flqKakkkacU4XqI5PdZ3P8gMIKz_wmwfXbaLEyWNW6aa87PG5_kwLfb--tAs65fgwf4tkjuKGW69jlFVATEVPq1jbIzmC0lCD2h3DjCXSwo0457zCsDHf1MzipBAxGvJ4s9hiAahOukT_V60JudcBlcz9er66VKAOMNBU7l","width":1952}],"place_id":"ChIJB_jBSei-wjsRIigM2c8M9tQ","plus_code":{"compound_code":"GQVJ+W6 Pune, Maharashtra, India","global_code":"7JCMGQVJ+W6"},"rating":4.8,"reference":"ChIJB_jBSei-wjsRIigM2c8M9tQ","scope":"GOOGLE","types":["pharmacy","store","health","point_of_interest","establishment"],"user_ratings_total":5,"vicinity":"Pashan - Sus Road, Pashan, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5643534,"lng":73.7780983},"viewport":{"northeast":{"lat":18.56567838029151,"lng":73.77956213029151},"southwest":{"lat":18.5629804197085,"lng":73.7768641697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"Hotel Amrita Executive Lodging","opening_hours":{"open_now":false},"photos":[{"height":382,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/109879784472539184367\">Hotel Amrita Executive Lodging</a>"],"photo_reference":"AWYs27zxlW4U1Q-2717K0CELyoyd7tbajoCZrh0WWgy_mNpB3lzgcLm8aeSp9QQkbAVlIk4OrKVio1TJFCt_X0YKOqr1I1ZkfcQTBME_yJl6rwQfNtaaK9Jh5wEhQ9Il9OJh8Q76ZwF4uR1c7dH8jkzKH9RIQTUiEd31dJvnV5dNnbsFZ4t2","width":500}],"place_id":"ChIJj5V6Rte-wjsRWnokOdl45O4","plus_code":{"compound_code":"HQ7H+P6 Pune, Maharashtra, India","global_code":"7JCMHQ7H+P6"},"rating":4.1,"reference":"ChIJj5V6Rte-wjsRWnokOdl45O4","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":4445,"vicinity":"Baner Road, Baner Gaon, Baner, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5633841,"lng":73.78169989999999},"viewport":{"northeast":{"lat":18.5647254302915,"lng":73.7828847302915},"southwest":{"lat":18.5620274697085,"lng":73.7801867697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet","name":"The Orchid School","opening_hours":{"open_now":false},"photos":[{"height":5504,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/108067694019323155432\">The Orchid School</a>"],"photo_reference":"AWYs27yNF5XRmRDAihVxGcpZd0mi6sOU5YFibNE84yiTYqig02A0GtYhQNfFKVpRZZvHAI_orV_Cl0hR6bNWbvpEBowaj3bsG9u-GAe9GpMGrBMNO3Zpf06eenDvdpi2_t1oDxShmoVwk2g9WPR6Jqfcph4xoW9VhLjB2KBCZ8OGeTnXuUCR","width":8256}],"place_id":"ChIJy8iMCs6-wjsRvQ95V4a4vro","plus_code":{"compound_code":"HQ7J+9M Pune, Maharashtra, India","global_code":"7JCMHQ7J+9M"},"rating":4.2,"reference":"ChIJy8iMCs6-wjsRvQ95V4a4vro","scope":"GOOGLE","types":["school","university","point_of_interest","establishment"],"user_ratings_total":290,"vicinity":"S. No. 80, 1/2/1, Baner - Mahalunge Road, ललित इस्टेट, बाणेर, पुणे"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5709421,"lng":73.7809359},"viewport":{"northeast":{"lat":18.5722947802915,"lng":73.7823154302915},"southwest":{"lat":18.56959681970849,"lng":73.7796174697085}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Comfort Zone Nest","photos":[{"height":475,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/110013692987478139403\">Comfort Zone Nest</a>"],"photo_reference":"AWYs27zsMI4-8OVxf7eXinGqfnkt86Wef7OChZiLsVBtRlhHhM65tZFXWUHkoCQAk9EIJHDrfM6__9mpkQOrEG-3LScSlcW3yny9Sf47kYAxZ1-r9UHI8WRJNYUD21bygC1o7RRgMBn6sImGiXVvX9-aPkK6Lmb6TpeahfSGOTSsGK5wguwQ","width":980}],"place_id":"ChIJfeixRS25wjsRyedaHAIj4fg","plus_code":{"compound_code":"HQCJ+99 Pune, Maharashtra, India","global_code":"7JCMHQCJ+99"},"rating":4.3,"reference":"ChIJfeixRS25wjsRyedaHAIj4fg","scope":"GOOGLE","types":["finance","point_of_interest","establishment"],"user_ratings_total":227,"vicinity":"s no, 18 (Part, Baner - Balewadi Road, Balewadi, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.560891,"lng":73.76428709999999},"viewport":{"northeast":{"lat":18.5623579802915,"lng":73.7656508302915},"southwest":{"lat":18.5596600197085,"lng":73.76295286970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet","name":"VIBGYOR High, Balewadi","opening_hours":{"open_now":false},"photos":[{"height":892,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/115477798592539183495\">VIBGYOR High, Balewadi</a>"],"photo_reference":"AWYs27w4EVFPYS3vz5G82RB8vgHO9B2laUbgjAXJ4F2bP-jSjlcp2MOYqcchBZPZ_TKMZvk_Qh1KO-7qW18QUm2J1oMG9qswXpVHyELxu-7loIhL9J1uh9-Ioo39MASsPApEWFjdpvltlKwKKBAP5DVDuZLG-qTWTWRcmslwf2KZSfo0wVXn","width":1030}],"place_id":"ChIJl_Vztba-wjsRLOukSxgXTgM","plus_code":{"compound_code":"HQ67+9P Pune, Maharashtra, India","global_code":"7JCMHQ67+9P"},"rating":3.3,"reference":"ChIJl_Vztba-wjsRLOukSxgXTgM","scope":"GOOGLE","types":["secondary_school","primary_school","school","point_of_interest","establishment"],"user_ratings_total":213,"vicinity":"Kirloskar Brothers Limited, Sr. No. 28/2, Sus Village, Baner, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.568374,"lng":73.7666465},"viewport":{"northeast":{"lat":18.5698331302915,"lng":73.76807063029149},"southwest":{"lat":18.5671351697085,"lng":73.76537266970848}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"Sadanand Resorts","photos":[{"height":810,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/108333875420717025320\">सदानंद Resorts</a>"],"photo_reference":"AWYs27zDNH8dBC3Lac8wd9jexZVOVuTnZ8r-heqd3N1HXdrNc335xykiFRYvJGonns9MSl8q8b0nTV25gn5k4xIR5GqVVmmQKuJhnoWAVdgoE7DHv0I7peRBxylnKnNwNygKL5dzuGiDX0v_OZa6ZhnwBDOXb6Yn0ajPcTtjsMSmYApZxjQ","width":1440}],"place_id":"ChIJndyySku5wjsRQ6kseBh4aUo","plus_code":{"compound_code":"HQ98+8M Pune, Maharashtra, India","global_code":"7JCMHQ98+8M"},"price_level":2,"rating":4,"reference":"ChIJndyySku5wjsRQ6kseBh4aUo","scope":"GOOGLE","types":["bar","meal_takeaway","restaurant","food","lodging","point_of_interest","establishment"],"user_ratings_total":864,"vicinity":"Opposite Balewadi Sports Complex, S No 105/3, Baner - Mahalunge Road, Baner, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.5592297,"lng":73.7816313},"viewport":{"northeast":{"lat":18.5606059802915,"lng":73.7829778802915},"southwest":{"lat":18.5579080197085,"lng":73.78027991970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","icon_background_color":"#909CE1","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet","name":"Atithi Guest House","photos":[{"height":2934,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/106384587033019728818\">Mohan Gupta</a>"],"photo_reference":"AWYs27z31iLGiaZdBbaz6HvgYmS8YbXzHvxkD_TAm3nuEIDHouv-5TjbobmVFfg0ScGQw3fLE5iaV4pnolkSNNFIDDyKs2szpV0kuTfNA6HXDY1qYHK0Yj17J-GemiCsnaCcgmiHK6cX8grEEZeMA1JA023pCdEpsU8Tao31j2qF8gmyyE_e","width":2934}],"place_id":"ChIJITg2kca-wjsRxmgR228u32c","plus_code":{"compound_code":"HQ5J+MM Pune, Maharashtra, India","global_code":"7JCMHQ5J+MM"},"rating":3.7,"reference":"ChIJITg2kca-wjsRxmgR228u32c","scope":"GOOGLE","types":["lodging","point_of_interest","establishment"],"user_ratings_total":158,"vicinity":"Near Dmart, Flat No 801 B1. Silvermoon Building, Near Dmart, Pan Card Club Road, Baner, Pune"},{"business_status":"OPERATIONAL","geometry":{"location":{"lat":18.564291,"lng":73.7802487},"viewport":{"northeast":{"lat":18.5656396802915,"lng":73.78156558029151},"southwest":{"lat":18.5629417197085,"lng":73.77886761970849}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Anshum M Photography","opening_hours":{"open_now":false},"photos":[{"height":2128,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/110843928021909861343\">Anshum M Photography</a>"],"photo_reference":"AWYs27zThWzjI4Fz8Mt_NfncRDWx5UzI5IGdj6tvC17ZgCsqFfwui_cE4TBFw0I2zxwD5LYSMmLSu2j51Yb4Vv-gKYWzYbfONk4Akr0YFdtkgJnhPnLN7ssmW7To8u1UFxzxE5rigUyzZJGDU-sSbiUIQdReWBdATmC22rAuf6ZpjM84fxM8","width":1446}],"place_id":"ChIJtXblaya_wjsRSk8yYVJ2REk","plus_code":{"compound_code":"HQ7J+P3 Pune, Maharashtra, India","global_code":"7JCMHQ7J+P3"},"rating":4.9,"reference":"ChIJtXblaya_wjsRSk8yYVJ2REk","scope":"GOOGLE","types":["point_of_interest","establishment"],"user_ratings_total":142,"vicinity":"Ram Indu Park Road, Pune"},{"geometry":{"location":{"lat":18.6297811,"lng":73.7997094},"viewport":{"northeast":{"lat":18.71714104715797,"lng":73.90750755362771},"southwest":{"lat":18.56424934806608,"lng":73.67678118755947}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png","icon_background_color":"#7B9EB0","icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet","name":"Pimpri-Chinchwad","photos":[{"height":3456,"html_attributions":["<a href=\"https://maps.google.com/maps/contrib/115665781907602033642\">Arshad. Bagawan</a>"],"photo_reference":"AWYs27zu7LNojxjtGBOIkGMFs9uPmm9ySdruyzO2Vee1xJo7q5qf7vlsTmTEuyOX-v3d-EKrh_40g1nkK_lRCJkA1cu644tNfd81C1M3WqCE8FpFpoBcWa_FtwlheFQNksElrvaOS38u-lQSu5oU9ARwWD7xlqz_Nc8WJF3bfD6_wVwYAqPR","width":4608}],"place_id":"ChIJs-q9fze4wjsR-KCnsdplQiw","reference":"ChIJs-q9fze4wjsR-KCnsdplQiw","scope":"GOOGLE","types":["locality","political"],"vicinity":"Pimpri-Chinchwad"}],"status":"OK"}
+2025-01-21 01:19:54,424 - INFO - Nearby locations: ['Name: Pune\nAddress: Pune\nDistance: 9.72 km\nGoogle Maps: https://www.google.com/maps?q=18.5204303,73.8567437\n', 'Name: Ramada Plaza by Wyndham Pune Hinjewadi\nAddress: next to Shree Chatrapati Sports complex, Pune Banglore Highway Pashan Exit, Pune\nDistance: 2.54 km\nGoogle Maps: https://www.google.com/maps?q=18.58103,73.76055339999999\n', 'Name: The Orchid Hotel Pune\nAddress: SHREE SHIV CHHATRAPATI SPORTS COMPLEX, adjacent Chatrapati Shivaji Maharaj Road, Bengaluru - Mumbai Highway, बालेवाडी, पुणे\nDistance: 1.50 km\nGoogle Maps: https://www.google.com/maps?q=18.5707794,73.7644648\n', 'Name: Merrygold Inn\nAddress: 25 Merry Gold SNO :, 23, Balewadi Road, Baner, Pune\nDistance: 1.19 km\nGoogle Maps: https://www.google.com/maps?q=18.5723181,73.7695504\n', 'Name: United 21 The Grand\nAddress: HQ5Q+372, Baner Hills, Baner, Pune\nDistance: 1.39 km\nGoogle Maps: https://www.google.com/maps?q=18.5576333,73.7881266\n', 'Name: hotel casa grande studios\nAddress: 81/1, plot No. 2, Vithal Vista Rutuja Park Society, Orchid School, Lane, Pune\nDistance: 0.45 km\nGoogle Maps: https://www.google.com/maps?q=18.5630767,73.7809955\n', 'Name: OYO 9759 Hotel Western Park\nAddress: Service Centre, 49 Pune-Banglore Highway, opposite Nisan, Pashan - Sus Road, Sus, Pune\nDistance: 2.29 km\nGoogle Maps: https://www.google.com/maps?q=18.551687,73.759638\n', 'Name: Hotel Kshitij\nAddress: Kshitij Height, Third floor,Above TVS Showroom Mumbai, Bypass Road, Baner, Bangalore\nDistance: 1.12 km\nGoogle Maps: https://www.google.com/maps?q=18.555627,73.771366\n', 'Name: OYO 72397 Royal Garden\nAddress: Saptagiri, S.No.1/7 Plot No.24, Balewadi Gaon, Balewadi, Pune\nDistance: 1.43 km\nGoogle Maps: https://www.google.com/maps?q=18.5770095,73.77636729999999\n', 'Name: ColorKnit Events n Production-Event Management Company in Pune\nAddress: 3rd Flr Flat No. 303, Fortune House, S. No. 6/1/10, Baner - Pashan Link Road, Baner, Pune\nDistance: 2.08 km\nGoogle Maps: https://www.google.com/maps?q=18.5522585,73.79208030000001\n', 'Name: Mont Vert Luxury Homes\nAddress: 129, Mont Vert Marc, 2, Pashan - Sus Road, Pashan, Pune\nDistance: 2.29 km\nGoogle Maps: https://www.google.com/maps?q=18.544365,73.782898\n', 'Name: Hindustan Drug House\nAddress: Pashan - Sus Road, Pashan, Pune\nDistance: 2.19 km\nGoogle Maps: https://www.google.com/maps?q=18.5447988,73.78051839999999\n', 'Name: Hotel Amrita Executive Lodging\nAddress: Baner Road, Baner Gaon, Baner, Pune\nDistance: 0.13 km\nGoogle Maps: https://www.google.com/maps?q=18.5643534,73.7780983\n', 'Name: The Orchid School\nAddress: S. No. 80, 1/2/1, Baner - Mahalunge Road, ललित इस्टेट, बाणेर, पुणे\nDistance: 0.51 km\nGoogle Maps: https://www.google.com/maps?q=18.5633841,73.78169989999999\n', 'Name: Comfort Zone Nest\nAddress: s no, 18 (Part, Baner - Balewadi Road, Balewadi, Pune\nDistance: 0.86 km\nGoogle Maps: https://www.google.com/maps?q=18.5709421,73.7809359\n', 'Name: VIBGYOR High, Balewadi\nAddress: Kirloskar Brothers Limited, Sr. No. 28/2, Sus Village, Baner, Pune\nDistance: 1.38 km\nGoogle Maps: https://www.google.com/maps?q=18.560891,73.76428709999999\n', 'Name: Sadanand Resorts\nAddress: Opposite Balewadi Sports Complex, S No 105/3, Baner - Mahalunge Road, Baner, Pune\nDistance: 1.18 km\nGoogle Maps: https://www.google.com/maps?q=18.568374,73.7666465\n', 'Name: Atithi Guest House\nAddress: Near Dmart, Flat No 801 B1. Silvermoon Building, Near Dmart, Pan Card Club Road, Baner, Pune\nDistance: 0.74 km\nGoogle Maps: https://www.google.com/maps?q=18.5592297,73.7816313\n', 'Name: Anshum M Photography\nAddress: Ram Indu Park Road, Pune\nDistance: 0.35 km\nGoogle Maps: https://www.google.com/maps?q=18.564291,73.7802487\n', 'Name: Pimpri-Chinchwad\nAddress: Pimpri-Chinchwad\nDistance: 7.68 km\nGoogle Maps: https://www.google.com/maps?q=18.6297811,73.7997094\n']
+2025-01-23 07:34:47,681 - INFO - Intent: proceed_intent_for_weather, Latitude: 18.5204, Longitude: 73.8567, Location Type: 
+2025-01-23 07:34:52,745 - ERROR - Error connecting to OpenWeather API: 
+2025-01-23 07:35:21,360 - INFO - Intent: proceed_intent_for_weather, Latitude: 18.5204, Longitude: 73.8567, Location Type: 
+2025-01-23 07:35:26,382 - ERROR - Error connecting to OpenWeather API: 
+2025-01-23 07:47:00,888 - INFO - Intent: proceed_intent_for_weather, Latitude: 18.5204, Longitude: 73.8567, Location Type: 
+2025-01-23 07:47:01,953 - INFO - HTTP Request: GET http://api.weatherstack.com/current?access_key=bb678e9df166890112ea56d745435a98&query=18.5204,73.8567 "HTTP/1.1 200 OK"
+2025-01-23 07:47:48,957 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: hotel
+2025-01-23 07:47:48,957 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 07:47:51,373 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 07:47:51,379 - INFO - API response received: 200
+2025-01-23 08:02:18,987 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:02:18,987 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:02:21,865 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:02:21,870 - INFO - API response received: 200
+2025-01-23 08:03:28,585 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:03:28,585 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:03:30,578 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:03:30,934 - INFO - API response received: 200
+2025-01-23 08:04:54,448 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: bank
+2025-01-23 08:04:54,448 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:04:56,798 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:04:56,802 - INFO - API response received: 200
+2025-01-23 08:05:12,879 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:05:12,879 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:05:15,073 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:05:15,076 - INFO - API response received: 200
+2025-01-23 08:07:37,064 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:07:37,064 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:07:39,521 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:07:39,526 - INFO - API response received: 200
+2025-01-23 08:07:40,153 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:07:40,153 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:07:43,515 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:07:43,517 - INFO - API response received: 200
+2025-01-23 08:08:58,167 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: bank
+2025-01-23 08:08:58,167 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:09:00,729 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:09:00,733 - INFO - API response received: 200
+2025-01-23 08:09:13,493 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:09:13,493 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:09:15,889 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:09:15,892 - INFO - API response received: 200
+2025-01-23 08:09:16,578 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:09:16,578 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:09:18,749 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:09:18,751 - INFO - API response received: 200
+2025-01-23 08:13:55,429 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:13:55,429 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:13:57,796 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:13:57,801 - INFO - API response received: 200
+2025-01-23 08:15:29,442 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: political
+2025-01-23 08:15:29,442 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:15:31,738 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:15:31,750 - INFO - API response received: 200
+2025-01-23 08:16:43,729 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: bank
+2025-01-23 08:16:43,730 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:16:45,703 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:16:45,709 - INFO - API response received: 200
+2025-01-23 08:17:47,366 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: point_of_interest
+2025-01-23 08:17:47,366 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:17:49,489 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:17:49,491 - INFO - API response received: 200
+2025-01-23 08:18:38,129 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: food
+2025-01-23 08:18:38,129 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:18:40,417 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:18:40,420 - INFO - API response received: 200
+2025-01-23 08:19:22,562 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: restaurant
+2025-01-23 08:19:22,562 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 08:19:24,961 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 08:19:26,086 - INFO - API response received: 200
+2025-01-23 13:40:36,652 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: hotel
+2025-01-23 13:40:36,653 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 13:40:40,096 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 13:40:40,101 - INFO - API response received: 200
+2025-01-23 13:41:46,109 - INFO - Intent: Yes_coordinates_know, Latitude: 18.5204, Longitude: 73.8567, Location Type: locality
+2025-01-23 13:41:46,109 - INFO - Sending request to GoMaps API: https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=[API_KEY]&limit=10
+2025-01-23 13:41:48,470 - INFO - HTTP Request: GET https://maps.gomaps.pro/maps/api/place/nearbysearch/json?location=18.5204,73.8567&radius=5000&key=AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW&limit=10 "HTTP/1.1 200 OK"
+2025-01-23 13:41:48,778 - INFO - API response received: 200
