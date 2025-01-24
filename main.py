@@ -13,11 +13,11 @@ logging.basicConfig(
 app = FastAPI()
 
 # API key and base URL
-GOMAPS_API_KEY = "AlzaSyvEif8PdUawsmvO1LdYw5QhxmqIildPweW"
+GOMAPS_API_KEY = "API_KEY"
 GOMAPS_BASE_URL = "https://maps.gomaps.pro/maps/api/place/"
 
 # Weatherstack API Key and Base URL
-WEATHERSTACK_API_KEY = "bb678e9df166890112ea56d745435a98"
+WEATHERSTACK_API_KEY = "API_KEY"
 WEATHERSTACK_BASE_URL = "http://api.weatherstack.com/current"
 
 #Get_weather func will return weather details in dictionary
